@@ -5,6 +5,7 @@ This repo simply serves as respository for how I setup various things on a Mac, 
 General and base stuff will go here. App or tool specific stuff will have their own files.
 
 - [Git](git.md)
+- [Vim](vim.md)
 
 ## General
 
