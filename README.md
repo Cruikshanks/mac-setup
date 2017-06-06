@@ -40,8 +40,11 @@ Changes I make to the Mac in settings to get it how I like it.
 
 Core stuff I install to then get over things loaded and/or setup.
 
-- Homebrew `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- Homebrew cask `brew tap caskroom/cask`
+- [Homebrew](https://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- [Homebrew cask](https://caskroom.github.io/) `brew tap caskroom/cask`
+- [Avira antivirus](https://www.avira.com/) `brew cask install avira-antivirus`
+- [Google Chrome](https://www.google.com/chrome/index.html) `brew cask install google-chrome`
+- [Evernote](https://evernote.com/) `brew cask install evernote`
 
 ## Contributing
 
