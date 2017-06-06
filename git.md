@@ -54,14 +54,6 @@ If you just do a git push from the command line you’ll get a message about the
 git config --global push.default simple
 ```
 
-### Allow pushing to https urls with invalid certificates
-
-Some places have a habit when setting things up internally of not bothering with certificates. This bypasses the issue, but use with caution.
-
-```bash
-git config --global push.default simple
-```
-
 ### Auto prune when pulling and fetching
 
 ```bash
@@ -78,4 +70,14 @@ git config --global alias.lg4 "log --graph --abbrev-commit --decorate --date=rel
 ```
 
 To use call `git lg1` i.e. `git [alias]`.
+
+## Local settings
+
+### Allow pushing to https urls with invalid certificates
+
+Some places have a habit when setting things up internally of not bothering with certificates. This bypasses the issue, but use with caution, and set at the repo level rather than globally.
+
+```bash
+git config http.sslVerify false
+```
 
