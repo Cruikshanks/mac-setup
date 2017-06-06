@@ -6,6 +6,7 @@ General and base stuff will go here. App or tool specific stuff will have their 
 
 - [Git](git.md)
 - [Vim](vim.md)
+- [Terminal](terminal.md)
 
 ## General
 
