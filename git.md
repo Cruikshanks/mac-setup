@@ -71,6 +71,17 @@ git config --global alias.lg4 "log --graph --abbrev-commit --decorate --date=rel
 
 To use call `git lg1` i.e. `git [alias]`.
 
+### Terminal aliases
+
+Add the following to `/.bash_profile` in order to enable quick commands that can be used in the terminal
+
+```bash
+# Alias for git status. -s means display output using the short format
+alias gst='git status -s'
+# Alias for git branch. -a means show all branches, both local and remote
+alias gb='git branch -a'
+```
+
 ## Local settings
 
 ### Allow pushing to https urls with invalid certificates
