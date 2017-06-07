@@ -30,4 +30,13 @@ If you want more details on what `rbenv init` actually does check out [How rbenv
 ## Use
 
 Grab the latest version of [Ruby](https://www.ruby-lang.org/) by first running `rbenv install -l` which will return a list of all available **Ruby** versions. Select the latest and then run `rbenv install 2.4.1`.
+
+Follow each install by running
+
+```bash
+gem install bundler
+gem install rubocop
+```
+
+All projects will require [Bundler](http://bundler.io/), and if you open **Atom** when the current **Ruby** version doesn't have [Rubocop](https://github.com/bbatsov/rubocop) installed you'll get errors.
  
