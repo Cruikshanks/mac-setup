@@ -47,6 +47,29 @@ Core stuff I install to then get over things loaded and/or setup.
 - [Avira antivirus](https://www.avira.com/) `brew cask install avira-antivirus`
 - [Google Chrome](https://www.google.com/chrome/index.html) `brew cask install google-chrome`
 - [Evernote](https://evernote.com/) `brew cask install evernote`
+- [VirtualBox](https://www.virtualbox.org/) `brew cask install virtualbox`
+  - [VirtualBox extension pack](https://www.virtualbox.org/wiki/Downloads) `brew cask install virtualbox-extension-pack`
+- [Vagrant](https://www.vagrantup.com/) `brew cask install vagrant`
+- [Gimp](https://www.gimp.org/) `brew cask install gimp`
+- [pgAdmin4](https://www.pgadmin.org/) `brew cask install pgadmin4`
+- [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac) *go to the site and download manually*
+- [MySQL Workbench](https://www.mysql.com/products/workbench/) `brew cask install mysqlworkbench`
+- [Slack](https://slack.com/downloads/osx) *go to the site and download manually*
+
+## Bash aliases
+
+These are general aliases I add to my bash profile
+
+```bash
+# Alias for bundle exec; simple time saver
+alias be='bundle exec’
+
+# Alias for bundle exec rails console; simple time saver
+alias rc='bundle exec rails console'
+
+# Alias for bundle exec rspec; simple time saver
+alias rs='bundle exec rspec'
+```
 
 ## Contributing
 
