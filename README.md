@@ -9,6 +9,7 @@ General and base stuff will go here. App or tool specific stuff will have their 
 - [Terminal](terminal.md)
 - [NVM](nvm.md)
 - [Rbenv](rbenv.md)
+- [Atom](atom.md)
 
 ## General
 
