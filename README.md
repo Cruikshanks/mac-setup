@@ -9,6 +9,7 @@ General and base stuff will go here. App or tool specific stuff will have their 
 - [Terminal](terminal.md)
 - [NVM](nvm.md)
 - [Rbenv](rbenv.md)
+- [Jenv](jenv.md)
 - [Atom](atom.md)
 
 ## General
@@ -44,6 +45,7 @@ Core stuff I install to then get over things loaded and/or setup.
 
 - [Homebrew](https://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - [Homebrew cask](https://caskroom.github.io/) `brew tap caskroom/cask`
+  - [Homebrew cask versions](https://github.com/caskroom/homebrew-versions) `brew tap caskroom/versions`
 - [Avira antivirus](https://www.avira.com/) `brew cask install avira-antivirus`
 - [Google Chrome](https://www.google.com/chrome/index.html) `brew cask install google-chrome`
 - [Evernote](https://evernote.com/) `brew cask install evernote`
