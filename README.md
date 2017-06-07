@@ -8,6 +8,7 @@ General and base stuff will go here. App or tool specific stuff will have their 
 - [Vim](vim.md)
 - [Terminal](terminal.md)
 - [NVM](nvm.md)
+- [Rbenv](rbenv.md)
 
 ## General
 
