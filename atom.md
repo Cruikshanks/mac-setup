@@ -8,6 +8,13 @@
 brew cask install atom
 ```
 
+## Configure
+
+Open 'Preferences' and then select 'Settings'. Make the following changes
+
+- `Soft warp` tick the box
+- `Tab type` set to soft
+
 ## Plugins
 
 Atom works best when you have the plugins you need to support your ways of working.
