@@ -57,6 +57,7 @@ Core stuff I install to then get over things loaded and/or setup.
 - [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac) *go to the site and download manually*
 - [MySQL Workbench](https://www.mysql.com/products/workbench/) `brew cask install mysqlworkbench`
 - [Slack](https://slack.com/downloads/osx) *go to the site and download manually*
+- [Skype](https://www.skype.com/en/) `brew cask install skype`
 
 ## Bash aliases
 
