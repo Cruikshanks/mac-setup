@@ -35,6 +35,8 @@ Create the configuration file `touch ~/.vimrc` first, then add the following
 execute pathogen#infect()
 " Turn syntax highlighting on
 syntax on
+" Turn on line numbers
+set number
 " Turn on filetype indentation detection
 filetype plugin indent on
 ```
