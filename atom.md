@@ -12,7 +12,7 @@ brew cask install atom
 
 Open 'Preferences' and then select 'Settings'. Make the following changes
 
-- `Soft warp` tick the box
+- `Soft wrap` tick the box
 - `Tab type` set to soft
 
 ## Plugins
