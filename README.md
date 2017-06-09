@@ -81,6 +81,6 @@ If you think I'm doing something wrong or have a better way create an issue or b
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+This information is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
 
 > If you don't add a license it's neither free or open!
