@@ -71,6 +71,9 @@ syntax on
 " Turn on line numbers
 set number
 
+" Set the default color to darkblue
+colo darkblue
+
 " Turn on filetype indentation detection
 filetype plugin indent on
 
