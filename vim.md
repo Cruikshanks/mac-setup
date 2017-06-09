@@ -15,6 +15,17 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 ```
 
+## Plugins
+
+### vim-gitgutter
+
+[vim-gitgutter](https://github.com/airblade/vim-gitgutter) shows a git diff in the 'gutter' (sign column).
+
+```bash
+cd ~/.vim/bundle
+git clone git://github.com/airblade/vim-gitgutter.git
+```
+
 ## Configure
 
 Create the configuration file `touch ~/.vimrc` first, then add the following
