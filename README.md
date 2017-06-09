@@ -42,7 +42,7 @@ Changes I make to the Mac in settings to get it how I like it.
 
 ## Base installations
 
-Core stuff I install to then get over things loaded and/or setup.
+Core stuff I install which also supports getting other things loaded and/or setup.
 
 - [Homebrew](https://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - [Homebrew cask](https://caskroom.github.io/) `brew tap caskroom/cask`
