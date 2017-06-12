@@ -59,6 +59,7 @@ Core stuff I install which also supports getting other things loaded and/or setu
 - [MySQL Workbench](https://www.mysql.com/products/workbench/) `brew cask install mysqlworkbench`
 - [Slack](https://slack.com/downloads/osx) *go to the site and download manually*
 - [Skype](https://www.skype.com/en/) `brew cask install skype`
+- [PhantomJS](http://phantomjs.org/) `brew install phantomjs`
 
 ## Bash aliases
 
