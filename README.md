@@ -12,6 +12,7 @@ General and base stuff will go here. App or tool specific stuff will have their 
 - [Jenv](jenv.md)
 - [Atom](atom.md)
 - [OpenVPN](openvpn.md)
+- [Firefox](firefox.md)
 
 ## General
 
