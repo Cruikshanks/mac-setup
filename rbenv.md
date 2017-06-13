@@ -29,9 +29,9 @@ If you want more details on what `rbenv init` actually does check out [How rbenv
 
 ## Use
 
-Grab the latest version of [Ruby](https://www.ruby-lang.org/) by first running `rbenv install -l` which will return a list of all available **Ruby** versions. Select the latest and then run `rbenv install 2.4.1`.
+Grab the latest version of [Ruby](https://www.ruby-lang.org/) by first running `rbenv install -l` which will return a list of all available **Ruby** versions. Select the latest and then run `rbenv install 2.4.1`. Then run `rbenv global 2.4.1` to set it as you global default version, replacing the outdated system one. 
 
-Follow each install by running
+After all installs run the following
 
 ```bash
 gem install bundler
