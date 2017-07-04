@@ -97,3 +97,11 @@ Cucumber support for atom <https://atom.io/packages/cucumber>.
 apm install cucumber
 ```
 
+### Terminal-plus
+
+Add a terminal panel to Atom <https://atom.io/packages/terminal-plus>
+
+```bash
+apm install terminal-plus
+```
+
