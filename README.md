@@ -14,6 +14,7 @@ General and base stuff will go here. App or tool specific stuff will have their 
 - [OpenVPN](openvpn.md)
 - [Firefox](firefox.md)
 - [Gemrc](gemrc.md)
+- [VSCode](vscode.md)
 
 ## General
 
