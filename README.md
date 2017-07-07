@@ -26,10 +26,6 @@ Changes I make to the Mac in settings to get it how I like it.
 - Untick `Group windows by application`. Should be able to more easily move between the windows of an app.
 - Set Dashboard as `As space`. This is what enables the sticky notes in the far left Space on a Mac.
 
-### System Preferences > Trackpad
-
-- In options for secondary click choose `Click in bottom right corner`
-
 ### System Preferences > Dock
 
 - Tick `Automatically hide and show the Dock`
