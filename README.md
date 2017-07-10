@@ -10,6 +10,7 @@ General and base stuff will go here. App or tool specific stuff will have their 
 - [NVM](nvm.md)
 - [Rbenv](rbenv.md)
 - [Jenv](jenv.md)
+- [Pyenv](pyenv.md)
 - [Atom](atom.md)
 - [OpenVPN](openvpn.md)
 - [Firefox](firefox.md)
