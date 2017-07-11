@@ -77,8 +77,19 @@ set wrap linebreak nolist
 " Set the default color to darkblue
 colo darkblue
 
-" Turn on filetype indentation detection
-filetype plugin indent on
+" Configure Vim to always use spaces for tabs, and to use 2 not 4
+" expandtab: Affects what happens when you press the <TAB> key.
+" If 'expandtab' is set, pressing the <TAB> key will always insert
+" 'softtabstop' amount of space characters
+" shiftwidth: affects what happens when you press >>, << or ==
+" softtabstop: affects what happens when you press the <TAB> or <BS> keys.
+" Its default value is the same as the value of 'tabstop', but when using
+" indentation without hard tabs or mixed indentation, you want to set it to
+" the same value as 'shiftwidth'
+" http://vim.wikia.com/wiki/Indenting_source_code 
+set expandtab
+set shiftwidth=2
+set softtabstop=2
 
 " Close vim if the only window left open is a NERD Tree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
