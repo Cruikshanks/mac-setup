@@ -77,6 +77,11 @@ set wrap linebreak nolist
 " Set the default color to darkblue
 colo darkblue
 
+" Do not create any temporary files when editing
+set nobackup
+set nowritebackup
+set noswapfile
+
 " Configure Vim to always use spaces for tabs, and to use 2 not 4
 " expandtab: Affects what happens when you press the <TAB> key.
 " If 'expandtab' is set, pressing the <TAB> key will always insert
