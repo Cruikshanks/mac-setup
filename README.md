@@ -67,7 +67,7 @@ These are general aliases I add to my bash profile
 
 ```bash
 # Alias for bundle exec; simple time saver
-alias be='bundle exec’
+alias be='bundle exec'
 
 # Alias for bundle exec rails console; simple time saver
 alias rc='bundle exec rails console'
