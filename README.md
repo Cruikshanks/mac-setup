@@ -60,6 +60,7 @@ Core stuff I install which also supports getting other things loaded and/or setu
 - [Slack](https://slack.com/downloads/osx) *go to the site and download manually*
 - [Skype](https://www.skype.com/en/) `brew cask install skype`
 - [PhantomJS](http://phantomjs.org/) `brew install phantomjs`
+- [Trailer](https://github.com/ptsochantaris/trailer) `brew cask install trailer`
 
 ## Bash aliases
 
