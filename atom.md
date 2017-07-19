@@ -53,6 +53,14 @@ Beautify HTML, CSS, JavaScript, PHP, Python, Ruby, Java, C, C++, C#, Objective-C
 apm install atom-beautify
 ```
 
+### Language-docker
+
+[Language-docker](https://atom.io/packages/language-docker) adds syntax highlighting for Dockerfiles in Atom.
+
+```bash
+apm install language-docker
+```
+
 ### Linter
 
 Linter is a base linter provider. You still need to install a specific linter for your language. You will find a full list on <https://atomlinter.github.io> <https://atom.io/packages/linter>.
@@ -72,6 +80,14 @@ apm install linter-rubocop
 ```
 
 You can set the path to **rubocop** in the settings, but because I use **Rbenv** I shouldn't need to.
+
+### Linter-docker
+
+[Linter-docker](https://atom.io/packages/linter-docker) adds linting for Dockerfiles to Atom. It does this based on [Dockerlint](https://github.com/RedCoolBeans/dockerlint).
+
+```bash
+apm install linter-docker
+```
 
 ### Todo Show Package
 
