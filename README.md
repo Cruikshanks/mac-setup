@@ -61,6 +61,7 @@ Core stuff I install which also supports getting other things loaded and/or setu
 - [Skype](https://www.skype.com/en/) `brew cask install skype`
 - [PhantomJS](http://phantomjs.org/) `brew install phantomjs`
 - [Trailer](https://github.com/ptsochantaris/trailer) `brew cask install trailer`
+- [Robo 3T](https://robomongo.org/) `brew cask install robo-3t`
 
 ## Bash aliases
 
