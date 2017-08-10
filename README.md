@@ -16,6 +16,7 @@ General and base stuff will go here. App or tool specific stuff will have their 
 - [Firefox](firefox.md)
 - [Gemrc](gemrc.md)
 - [VSCode](vscode.md)
+- [S3cmd tools](s3cmdtools.md)
 
 ## General
 
