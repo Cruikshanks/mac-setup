@@ -113,11 +113,11 @@ Cucumber support for atom <https://atom.io/packages/cucumber>.
 apm install cucumber
 ```
 
-### Terminal-plus
+### PlatformIO IDE Terminal
 
-Add a terminal panel to Atom <https://atom.io/packages/terminal-plus>
+A terminal package for Atom, complete with themes, API and more for PlatformIO IDE. Fork of terminal-plus. <https://atom.io/packages/platformio-ide-terminal>
 
 ```bash
-apm install terminal-plus
+apm install platformio-ide-terminal
 ```
 
