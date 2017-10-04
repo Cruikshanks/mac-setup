@@ -15,6 +15,10 @@ Open 'Preferences' and then select 'Settings'. Make the following changes
 - `Soft wrap` tick the box
 - `Tab type` set to soft
 
+Whilst in 'Settings' select 'Packages' and search for `treeview`. Make the following changes in its settings
+
+- `Hide VCS Ignored Files` untick the box
+
 ## Plugins
 
 Atom works best when you have the plugins you need to support your ways of working.
