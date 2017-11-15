@@ -125,3 +125,10 @@ A terminal package for Atom, complete with themes, API and more for PlatformIO I
 apm install platformio-ide-terminal
 ```
 
+### Teletype
+
+An Atom package that lets developers share their workspace with team members and collaborate on code in real time. <https://atom.io/packages/teletype>
+
+```bash
+apm install teletype
+```
