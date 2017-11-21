@@ -19,6 +19,10 @@ Whilst in 'Settings' select 'Packages' and search for `treeview`. Make the follo
 
 - `Hide VCS Ignored Files` untick the box
 
+Next search for `autocomplete-plus`. Make the following changes in its settings
+
+- `Show Suggestions On Keystroke` untick the box
+
 ## Plugins
 
 Atom works best when you have the plugins you need to support your ways of working.
