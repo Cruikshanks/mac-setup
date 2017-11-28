@@ -63,6 +63,8 @@ Core stuff I install which also supports getting other things loaded and/or setu
 - [PhantomJS](http://phantomjs.org/) `brew install phantomjs`
 - [Trailer](https://github.com/ptsochantaris/trailer) `brew cask install trailer`
 - [Robo 3T](https://robomongo.org/) `brew cask install robo-3t`
+- [Cheat](https://github.com/chrisallenlane/cheat) `brew install cheat`
+- [tldr](https://github.com/tldr-pages/tldr) `brew install tldr`
 
 ## Bash aliases
 
