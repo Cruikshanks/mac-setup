@@ -1,22 +1,23 @@
 # Mac setup
 
-This repo simply serves as respository for how I setup various things on a Mac, in case of the time when I either change or it blows up!
+This repo simply serves as repository for how I setup various things on a Mac, in case of the time when I either change it or it blows up!
 
 General and base stuff will go here. App or tool specific stuff will have their own files.
 
-- [Git](git.md)
-- [Vim](vim.md)
-- [Terminal](terminal.md)
-- [NVM](nvm.md)
-- [Rbenv](rbenv.md)
-- [Jenv](jenv.md)
-- [Pyenv](pyenv.md)
 - [Atom](atom.md)
-- [OpenVPN](openvpn.md)
 - [Firefox](firefox.md)
 - [Gemrc](gemrc.md)
-- [VSCode](vscode.md)
+- [Git](git.md)
+- [GPG](gpg.md)
+- [Jenv](jenv.md)
+- [NVM](nvm.md)
+- [OpenVPN](openvpn.md)
+- [Pyenv](pyenv.md)
+- [Rbenv](rbenv.md)
 - [S3cmd tools](s3cmdtools.md)
+- [Terminal](terminal.md)
+- [Vim](vim.md)
+- [VSCode](vscode.md)
 
 ## General
 
