@@ -75,6 +75,14 @@ You must then add this to `.bash_profile`
 export GPG_TTY=$(tty)
 ```
 
+Finally call the following to sign all commits by default
+
+```bash
+git config --global commit.gpgsign true
+```
+
+This saves you having to remember to add `-S` to all your `git commit` calls.
+
 ## Aliases
 
 ```bash
