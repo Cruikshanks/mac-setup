@@ -95,6 +95,12 @@ Add the following to `/.bash_profile` in order to enable quick commands that can
 alias gst='git status -s'
 # Alias for git branch. -a means show all branches, both local and remote
 alias gb='git branch -a'
+# Alias for git add . The period means add everything
+alias ga='git add .'
+# Alias for git commit. -v means display the diff under the commit message for reference
+alias gc='git commit -v'
+# Alias for git commit --amend. -v still means display the diff under the commit message for reference
+alias gca='git commit -v --amend'
 ```
 
 ## Local settings
