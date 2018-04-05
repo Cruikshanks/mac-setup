@@ -99,6 +99,12 @@ set softtabstop=2
 " Close vim if the only window left open is a NERD Tree
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
+" Jump to last cursor position unless it's invalid or in an event handler
+autocmd BufReadPost *
+  \ if line("'\"") > 0 && line("'\"") <= line("$") |
+  \   exe "normal g`\"" |
+  \ endif
+
 " Shortcuts
 "
 " Shortcut to toggle NERD Tree
