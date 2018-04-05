@@ -23,6 +23,12 @@ git config --global user.email "alan.cruikshanks@gmail.com"
 git config --global core.editor "vim"
 ```
 
+### Color git output
+
+```bash
+git config --global color.ui auto
+```
+
 ### Always use https over ssh
 
 Have found port 22 for SSH can often be blocked, which can cause issues when pulling in dependencies that rely refer directly to a GitHub repo via SSH. This solves the problem.
