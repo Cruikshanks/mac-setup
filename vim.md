@@ -68,9 +68,6 @@ execute pathogen#infect()
 " Turn syntax highlighting on
 syntax on
 
-" Turn on line numbers
-set number
-
 " Set 'soft wrap' on i.e. don't break up words when wrapping
 set wrap linebreak nolist
 
