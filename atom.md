@@ -136,3 +136,11 @@ An Atom package that lets developers share their workspace with team members and
 ```bash
 apm install teletype
 ```
+
+### Jenkinsfile language support
+
+groovy-language modifications to adds syntax highlighting and snippets to Jenkinsfile files in Atom.
+
+```bash
+apm install language-jenkinsfile
+```
