@@ -9,6 +9,7 @@ General and base stuff will go here. App or tool specific stuff will have their 
 - [Gemrc](gemrc.md)
 - [Git](git.md)
 - [GPG](gpg.md)
+- [iTerm2](iterm2.md)
 - [Jenv](jenv.md)
 - [NVM](nvm.md)
 - [OpenVPN](openvpn.md)
@@ -66,7 +67,6 @@ Core stuff I install which also supports getting other things loaded and/or setu
 - [Robo 3T](https://robomongo.org/) `brew cask install robo-3t`
 - [Cheat](https://github.com/chrisallenlane/cheat) `brew install cheat`
 - [tldr](https://github.com/tldr-pages/tldr) `brew install tldr`
-- [iTerm2](https://www.iterm2.com/) `brew cask install iterm2`
 
 ## Bash aliases
 
