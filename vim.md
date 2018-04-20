@@ -81,6 +81,16 @@ You can use `ctrl+ww` to cycle through the panes, including when you have just a
 
 Finally there is [documentation](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt) for **NERD Treet** but I found [this article](http://kennedysgarage.com/articles/nerdtree/) more useful.
 
+### Solarized Colorscheme for Vim
+
+[vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) will use the solarized color theme in the Vim editor.
+
+```bash
+git clone https://github.com/altercation/vim-colors-solarized.git ~/.vim/bundle/vim-colors-solarized
+```
+
+Settings in the `.vimrc` will take care of the rest once this is done.
+
 ## Configure
 
 Create the configuration file `touch ~/.vimrc` first, then add the following
@@ -95,8 +105,10 @@ syntax on
 " Set 'soft wrap' on i.e. don't break up words when wrapping
 set wrap linebreak nolist
 
-" Set the default color to darkblue
-colo darkblue
+" Set the default colorscheme to solarized dark
+" https://github.com/altercation/vim-colors-solarized
+set background=dark
+colorscheme solarized
 
 " Do not create any temporary files when editing
 set nobackup
@@ -112,7 +124,7 @@ set noswapfile
 " Its default value is the same as the value of 'tabstop', but when using
 " indentation without hard tabs or mixed indentation, you want to set it to
 " the same value as 'shiftwidth'
-" http://vim.wikia.com/wiki/Indenting_source_code 
+" http://vim.wikia.com/wiki/Indenting_source_code
 set expandtab
 set shiftwidth=2
 set softtabstop=2
@@ -131,5 +143,8 @@ autocmd BufReadPost *
 " Shortcut to toggle NERD Tree
 map <F2> :NERDTreeToggle<CR>
 
-```
+" Shortcut to toggle background (provided by solarized theme)
+" https://github.com/altercation/vim-colors-solarized#toggle-background-function
+call togglebg#map("<F5>")
 
+```
