@@ -107,7 +107,7 @@ Add the following to `/.bash_profile` in order to enable quick commands that can
 
 ```bash
 # Alias for git status. -s means display output using the short format
-alias gst='git status -s'
+alias gs='git status -s'
 # Alias for git branch. -a means show all branches, both local and remote
 alias gb='git branch -a'
 # Alias for git add . The period means add everything
