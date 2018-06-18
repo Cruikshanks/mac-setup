@@ -67,6 +67,7 @@ Core stuff I install which also supports getting other things loaded and/or setu
 - [Robo 3T](https://robomongo.org/) `brew cask install robo-3t`
 - [Cheat](https://github.com/chrisallenlane/cheat) `brew install cheat`
 - [tldr](https://github.com/tldr-pages/tldr) `brew install tldr`
+- [Keka](https://www.keka.io/en/) `brew cask install keka`
 
 ## Bash aliases
 
