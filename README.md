@@ -62,7 +62,7 @@ Core stuff I install which also supports getting other things loaded and/or setu
 - [MySQL Workbench](https://www.mysql.com/products/workbench/) `brew cask install mysqlworkbench`
 - [Slack](https://slack.com/downloads/osx) *go to the site and download manually*
 - [Skype](https://www.skype.com/en/) `brew cask install skype`
-- [PhantomJS](http://phantomjs.org/) `brew install phantomjs`
+- [PhantomJS](http://phantomjs.org/) `brew cask install phantomjs`
 - [Trailer](https://github.com/ptsochantaris/trailer) `brew cask install trailer`
 - [Robo 3T](https://robomongo.org/) `brew cask install robo-3t`
 - [Cheat](https://github.com/chrisallenlane/cheat) `brew install cheat`
