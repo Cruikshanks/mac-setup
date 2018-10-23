@@ -4,7 +4,7 @@
 
 ## Install
 
-Go to <https://openvpn.envage.co.uk>, enter username and password and make sure to choose `login` rather than `connect`. I should then come to a screen with a link to download the Mac version of the client, plus my profile.
+Go to <https://openvpn-ops.aws.defra.cloud>, enter username and password and make sure to choose `login` rather than `connect`. I should then come to a screen with a link to download the Mac version of the client, plus my profile.
 
 Download both, and run the client install first just hitting next (there is nothing to configure).
 
