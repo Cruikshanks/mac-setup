@@ -2,6 +2,24 @@
 
 [Pyenv](https://github.com/pyenv/pyenv) is a version manager for Python.
 
+## Mojave
+
+Following the update to Mojave kept getting this error whenever I tried to install a version of Python using Pyenv
+
+> ERROR: The Python zlib extension was not compiled. Missing the zlib?
+
+The [Pyenv documentation](https://github.com/pyenv/pyenv/wiki/Common-build-problems#requirements) itself says
+
+> When running Mojave or higher (10.14+) you will also need to install the additional SDK headers by downloading them from Apple Developers.
+
+I just ran the command it suggests
+
+```bash
+sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+```
+
+And from then on I could install python via pyenv with no issues.
+
 ## Install
 
 ```bash
