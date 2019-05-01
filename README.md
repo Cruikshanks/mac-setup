@@ -5,7 +5,6 @@ This repo simply serves as repository for how I setup various things on a Mac, i
 General and base stuff will go here. App or tool specific stuff will have their own files.
 
 - [Atom](atom.md)
-- [Firefox](firefox.md)
 - [Gemrc](gemrc.md)
 - [Git](git.md)
 - [GPG](gpg.md)
@@ -53,6 +52,7 @@ Core stuff I install which also supports getting other things loaded and/or setu
   - [Homebrew cask versions](https://github.com/caskroom/homebrew-versions) `brew tap caskroom/versions`
 - [Avira antivirus](https://www.avira.com/) `brew cask install avira-antivirus`
 - [Google Chrome](https://www.google.com/chrome/index.html) `brew cask install google-chrome`
+- [Firefox](https://www.mozilla.org/en-GB/firefox/new/) `brew cask install firefox`
 - [Evernote](https://evernote.com/) `brew cask install evernote`
 - [VirtualBox](https://www.virtualbox.org/) `brew cask install virtualbox`
   - [VirtualBox extension pack](https://www.virtualbox.org/wiki/Downloads) `brew cask install virtualbox-extension-pack`
