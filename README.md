@@ -69,6 +69,7 @@ Core stuff I install which also supports getting other things loaded and/or setu
 - [Cheat](https://github.com/chrisallenlane/cheat) `brew install cheat`
 - [tldr](https://github.com/tldr-pages/tldr) `brew install tldr`
 - [Keka](https://www.keka.io/en/) `brew cask install keka`
+- [Tokei](https://github.com/XAMPPRocky/tokei/) `brew cask install tokei`
 
 ## Bash aliases
 
