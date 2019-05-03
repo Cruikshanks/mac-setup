@@ -80,6 +80,12 @@ Integrates JavaScript Standard Style into VS Code.
 
 https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs
 
+### Trailing Spaces
+
+Highlight trailing spaces and delete them in a flash!
+
+https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces
+
 ## Keyboard shortcuts
 
 Add the following keyboard shortcuts via `Preferences -> Keyboard shortcuts`
