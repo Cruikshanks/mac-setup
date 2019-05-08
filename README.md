@@ -70,6 +70,7 @@ Core stuff I install which also supports getting other things loaded and/or setu
 - [tldr](https://github.com/tldr-pages/tldr) `brew install tldr`
 - [Keka](https://www.keka.io/en/) `brew cask install keka`
 - [Tokei](https://github.com/XAMPPRocky/tokei/) `brew cask install tokei`
+- [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) `brew cask install intellij-idea-ce`
 
 ## Bash aliases
 
