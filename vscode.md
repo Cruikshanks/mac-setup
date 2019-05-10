@@ -44,12 +44,6 @@ Open the **settings** via `Preferences -> Settings`
 
 VSCode works best when you have the plugins you need to support your ways of working.
 
-### Material Icon Theme
-
-The Material Icon Theme provides lots of icons based on Material Design for Visual Studio Code.
-
-https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
-
 ### Cucumber (Gherkin) Full Support
 
 VSCode Cucumber (Gherkin) Language Support + Format + Steps/PageObjects Autocomplete.
@@ -68,6 +62,12 @@ Supercharge the Git capabilities built into Visual Studio Code — Visualize cod
 
 https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 
+### Material Icon Theme
+
+The Material Icon Theme provides lots of icons based on Material Design for Visual Studio Code.
+
+https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+
 ### Ruby
 
 Provides Ruby language and debugging support for Visual Studio Code
@@ -79,6 +79,12 @@ https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby
 Integrates JavaScript Standard Style into VS Code.
 
 https://marketplace.visualstudio.com/items?itemName=chenxsan.vscode-standardjs
+
+### Systemd Support
+
+Systemd unit file syntax, autocompletion for Visual Studio Code.
+
+https://marketplace.visualstudio.com/items?itemName=hangxingliu.vscode-systemd-support
 
 ### Trailing Spaces
 
