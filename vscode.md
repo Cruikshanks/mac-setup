@@ -102,6 +102,14 @@ The first command will install the solargraph gem globally for the current versi
 
 Back in VSCode open the settings for Solargraph and set Diagnostics to `true`. This will enable rubocop. Then restart VSCode and all should be good.
 
+### Ruby Test Explorer
+
+Run your Ruby tests in the Sidebar of Visual Studio Code
+
+https://marketplace.visualstudio.com/items?itemName=connorshea.vscode-ruby-test-adapter
+
+Didn't spot to begin with, but it will add a new icon in the sidebar that looks like a flask. You can then interact with the test runner from there.
+
 ### SQLTools
 
 Database management done right. Connection explorer, query runner, intellisense, bookmarks, query history. (Mainly got for the SQL intellisense)
