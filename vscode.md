@@ -80,11 +80,27 @@ The Material Icon Theme provides lots of icons based on Material Design for Visu
 
 https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
 
-### Ruby
+### Ruby Solargraph
 
-Provides Ruby language and debugging support for Visual Studio Code
+Solargraph is a language server that provides intellisense, code completion, and inline documentation for Ruby.
 
-https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby
+https://marketplace.visualstudio.com/items?itemName=castwide.solargraph
+
+I was previously using the Ruby extension from Peng Lv but unfortunately the key thing I needed, rubocop scanning just never seemed to work properly. Finally after doing some digging it looked like it just wouldn't ever play nice when using something like rbenv and bundler. However in one of the comments someone mentioned [Solargraph](https://github.com/castwide/solargraph) and that seemed to do the trick.
+
+#### Setup
+
+Before adding the extension run the following commands
+
+```bash
+gem install solargraph
+yard gems
+solargraph download-core 2.4.2
+```
+
+The first command will install the solargraph gem globally for the current version of ruby, which also installs [Yard](https://github.com/lsegal/yard). `yard gems` will generate documentation for all your currently installed gems. The last command will install documentation for standard ruby, for the version you're using.
+
+Back in VSCode open the settings for Solargraph and set Diagnostics to `true`. This will enable rubocop. Then restart VSCode and all should be good.
 
 ### SQLTools
 
