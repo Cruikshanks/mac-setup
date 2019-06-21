@@ -110,6 +110,12 @@ Highlight trailing spaces and delete them in a flash!
 
 https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces
 
+### vscode-pdf
+
+Display pdf in VSCode.
+
+https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf
+
 ## Keyboard shortcuts
 
 Add the following keyboard shortcuts via `Preferences -> Keyboard shortcuts`
