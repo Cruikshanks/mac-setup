@@ -68,6 +68,12 @@ Supercharge the Git capabilities built into Visual Studio Code — Visualize cod
 
 https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 
+### Markdownlint
+
+A library of rules to encourage standards and consistency for Markdown files. It is powered by markdownlint for Node.js which is based on markdownlint for Ruby.
+
+https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+
 ### Material Icon Theme
 
 The Material Icon Theme provides lots of icons based on Material Design for Visual Studio Code.
