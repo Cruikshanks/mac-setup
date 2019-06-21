@@ -56,6 +56,12 @@ The Docker extension makes it easy to build, manage and deploy containerized app
 
 https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker
 
+### Git History
+
+View git log, file history, compare branches or commits
+
+https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory
+
 ### GitLens — Git supercharged
 
 Supercharge the Git capabilities built into Visual Studio Code — Visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.
