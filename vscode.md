@@ -1,6 +1,6 @@
 # VS Code
 
-[VS Code](https://code.visualstudio.com/) is a text editor where I generally do any **Node.js** work (I use [Atom](https://atom.io/) for everything else).
+[VS Code](https://code.visualstudio.com/) is my main editor for all work. I used to use [Atom](https://atom.io/) for everything bar Node.js but have switched to it being my one for reasons 😁 
 
 ## Install
 

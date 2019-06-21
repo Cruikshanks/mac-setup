@@ -1,6 +1,8 @@
 # Atom
 
-[Atom](https://atom.io/) is a text editor where I generally do everything but **Node.js** (I use [VS Code](https://code.visualstudio.com/) for that).
+[Atom](https://atom.io/) used to be my main editor. Now I generally do everything in [VS Code](https://code.visualstudio.com/).
+
+⚠️ Keeping this as a reference but beware it might be quite stale information!
 
 ## Install
 
