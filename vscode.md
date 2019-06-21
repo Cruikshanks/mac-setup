@@ -86,6 +86,12 @@ Provides Ruby language and debugging support for Visual Studio Code
 
 https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby
 
+### SQLTools
+
+Database management done right. Connection explorer, query runner, intellisense, bookmarks, query history. (Mainly got for the SQL intellisense)
+
+https://marketplace.visualstudio.com/items?itemName=mtxr.sqltools
+
 ### StandardJS - JavaScript Standard Style
 
 Integrates JavaScript Standard Style into VS Code.
