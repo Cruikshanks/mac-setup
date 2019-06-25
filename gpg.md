@@ -1,6 +1,6 @@
 # GPG
 
-[GnuPG]((https://www.gnupg.org/index.html) (also known as GPG) is a complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP). It is a command line tool with features for easy integration with other applications. It is used to encrypt and sign data, and features a key management system.
+[GnuPG](https://www.gnupg.org/index.html) (also known as GPG) is a complete and free implementation of the OpenPGP standard as defined by RFC4880 (also known as PGP). It is a command line tool with features for easy integration with other applications. It is used to encrypt and sign data, and features a key management system.
 
 As part of following GitHub's instructions on [signing commits with gpg](https://help.github.com/articles/signing-commits-with-gpg/), the first step is to install it.
 
