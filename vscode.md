@@ -80,6 +80,12 @@ The Material Icon Theme provides lots of icons based on Material Design for Visu
 
 https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
 
+### Rainbow CSV
+
+Highlight CSV and TSV files in different colors, Run SQL-like queries
+
+https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv
+
 ### Ruby Solargraph
 
 Solargraph is a language server that provides intellisense, code completion, and inline documentation for Ruby.
