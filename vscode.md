@@ -94,6 +94,12 @@ https://marketplace.visualstudio.com/items?itemName=castwide.solargraph
 
 I was previously using the Ruby extension from Peng Lv but unfortunately the key thing I needed, rubocop scanning just never seemed to work properly. Finally after doing some digging it looked like it just wouldn't ever play nice when using something like rbenv and bundler. However in one of the comments someone mentioned [Solargraph](https://github.com/castwide/solargraph) and that seemed to do the trick.
 
+### XML tools
+
+XML Formatting, XQuery, and XPath Tools for Visual Studio Code.
+
+https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml
+
 #### Setup
 
 Before adding the extension run the following commands
