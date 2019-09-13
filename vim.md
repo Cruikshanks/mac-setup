@@ -107,7 +107,18 @@ set wrap linebreak nolist
 
 " Set the default colorscheme to solarized dark
 " https://github.com/altercation/vim-colors-solarized
-set background=dark
+if has('gui_running')
+  set background=light
+else
+  set background=dark
+endif
+" Without this line when we open Vim in VSCode and Atom's integrated
+" terminals we get very washed out colours that are hard to read.
+" These links discuss the issues and give an indication to the
+" reason why this is
+" https://stackoverflow.com/q/57584786
+" https://github.com/altercation/vim-colors-solarized#important-note-for-terminal-users
+let g:solarized_termcolors=256
 colorscheme solarized
 
 " Do not create any temporary files when editing
