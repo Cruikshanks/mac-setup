@@ -1,6 +1,6 @@
 # VS Code
 
-[VS Code](https://code.visualstudio.com/) is my main editor for all work. I used to use [Atom](https://atom.io/) for everything bar Node.js but have switched to it being my one for reasons 😁 
+[VS Code](https://code.visualstudio.com/) is my main editor for all work. I used to use [Atom](https://atom.io/) for everything bar Node.js but have switched to it being my one for reasons 😁
 
 ## Install
 
@@ -23,22 +23,13 @@ Open the **settings** via `Preferences -> Settings`
 - Editor: Tab Size = 2
 - Editor: Word Wrap = On
 - Editor: Rules `"editor.rulers": [80, 120]`
+- Editor: Trim Auto Whitespace = true
 - Minimap: Enabled = false
-- Files: Insert Final Newline = true
 - Files: Trim Final Newlines = true
-- Files Trim Trailing Whitespace = true
+- Files: Trim Trailing Whitespace = true
+- Files: Insert Final Newline = true
 - Appearance: Color Theme = Solarized Dark
-- Editor Mgmt: Swipe To Navigate = true
 - Workbench: Startup Editor  = none
-
-#### Extensions
-
-##### Ruby configuration
-
-- Code Completion = rcodetools
-- Format = rubocop
-- Intellisense = rubyLocate
-- Use Language Server = true
 
 ## Extensions
 
@@ -94,25 +85,21 @@ https://marketplace.visualstudio.com/items?itemName=castwide.solargraph
 
 I was previously using the Ruby extension from Peng Lv but unfortunately the key thing I needed, rubocop scanning just never seemed to work properly. Finally after doing some digging it looked like it just wouldn't ever play nice when using something like rbenv and bundler. However in one of the comments someone mentioned [Solargraph](https://github.com/castwide/solargraph) and that seemed to do the trick.
 
-### XML tools
-
-XML Formatting, XQuery, and XPath Tools for Visual Studio Code.
-
-https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml
-
 #### Setup
 
 Before adding the extension run the following commands
 
 ```bash
 gem install solargraph
-yard gems
-solargraph download-core 2.4.2
 ```
 
-The first command will install the solargraph gem globally for the current version of ruby, which also installs [Yard](https://github.com/lsegal/yard). `yard gems` will generate documentation for all your currently installed gems. The last command will install documentation for standard ruby, for the version you're using.
-
 Back in VSCode open the settings for Solargraph and set Diagnostics to `true`. This will enable rubocop. Then restart VSCode and all should be good.
+
+### XML tools
+
+XML Formatting, XQuery, and XPath Tools for Visual Studio Code.
+
+https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml
 
 ### Ruby Test Explorer
 
@@ -151,9 +138,3 @@ https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces
 Display pdf in VSCode.
 
 https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf
-
-## Keyboard shortcuts
-
-Add the following keyboard shortcuts via `Preferences -> Keyboard shortcuts`
-
-- `workbench.action.terminal.kill` = - alt+cmd+q
