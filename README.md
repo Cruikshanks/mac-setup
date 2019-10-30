@@ -4,7 +4,6 @@ This repo simply serves as repository for how I setup various things on a Mac, i
 
 General and base stuff will go here. App or tool specific stuff will have their own files.
 
-- [Atom](atom.md)
 - [Gemrc](gemrc.md)
 - [Git](git.md)
 - [GPG](gpg.md)
