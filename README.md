@@ -27,11 +27,6 @@ Changes I make to the Mac in settings to get it how I like it.
 
 - Untick `Automatically rearrange Spaces based on most recent use`. This will stop my full screen apps from moving position.
 - Untick `Group windows by application`. Should be able to more easily move between the windows of an app.
-- Set Dashboard as `As space`. This is what enables the sticky notes in the far left Space on a Mac.
-
-### System Preferences > Dock
-
-- Tick `Automatically hide and show the Dock`
 
 ### System Preferences > Energy Saver
 
@@ -39,7 +34,7 @@ Changes I make to the Mac in settings to get it how I like it.
 
 ### System Preferences > General
 
-- Tick `Use dark menu bar and Dock`
+- Select `Dark` appearance
 - Click in the scroll bar to `Jump to the spot that's clicked`
 
 ## Base installations
