@@ -42,8 +42,6 @@ Changes I make to the Mac in settings to get it how I like it.
 Core stuff I install which also supports getting other things loaded and/or setup.
 
 - [Homebrew](https://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- [Homebrew cask](https://caskroom.github.io/) `brew tap caskroom/cask`
-  - [Homebrew cask versions](https://github.com/caskroom/homebrew-versions) `brew tap caskroom/versions`
 - [Avira antivirus](https://www.avira.com/) `brew cask install avira-antivirus`
 - [Google Chrome](https://www.google.com/chrome/index.html) `brew cask install google-chrome`
 - [Firefox](https://www.mozilla.org/en-GB/firefox/new/) `brew cask install firefox`
