@@ -21,4 +21,3 @@ Open the file and add the following
 # gem install
 gem: --no-document
 ```
-
