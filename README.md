@@ -10,6 +10,7 @@ General and base stuff will go here. App or tool specific stuff will have their 
 - [iTerm2](iterm2.md)
 - [Jenv](jenv.md)
 - [NVM](nvm.md)
+- [Oh my zsh](ohmyzsh.md)
 - [OpenVPN](openvpn.md)
 - [PostgreSQL](postgresql.md)
 - [Pyenv](pyenv.md)
