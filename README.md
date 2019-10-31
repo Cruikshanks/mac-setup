@@ -39,7 +39,9 @@ Changes I make to the Mac in settings to get it how I like it.
 
 ## Base installations
 
-Core stuff I install which also supports getting other things loaded and/or setup.
+Core stuff I install which also supports getting other things loaded and/or setup. To save time when doing these all in one go you can skip the `brew update` that happens with each `brew install`.
+
+Just call `export HOMEBREW_NO_AUTO_UPDATE=1` in the terminal session you are using to run all your installs.
 
 - [Homebrew](https://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - [Avira antivirus](https://www.avira.com/) `brew cask install avira-antivirus`
