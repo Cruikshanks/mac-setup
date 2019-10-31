@@ -54,16 +54,13 @@ Core stuff I install which also supports getting other things loaded and/or setu
 - [Gimp](https://www.gimp.org/) `brew cask install gimp`
 - [pgAdmin4](https://www.pgadmin.org/) `brew cask install pgadmin4`
 - [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac) *go to the site and download manually*
-- [MySQL Workbench](https://www.mysql.com/products/workbench/) `brew cask install mysqlworkbench`
 - [Slack](https://slack.com/downloads/osx) *go to the site and download manually*
-- [Skype](https://www.skype.com/en/) `brew cask install skype`
-- [PhantomJS](http://phantomjs.org/) `brew cask install phantomjs`
 - [Trailer](https://github.com/ptsochantaris/trailer) `brew cask install trailer`
 - [Robo 3T](https://robomongo.org/) `brew cask install robo-3t`
 - [Cheat](https://github.com/chrisallenlane/cheat) `brew install cheat`
 - [tldr](https://github.com/tldr-pages/tldr) `brew install tldr`
 - [Keka](https://www.keka.io/en/) `brew cask install keka`
-- [Tokei](https://github.com/XAMPPRocky/tokei/) `brew cask install tokei`
+- [Tokei](https://github.com/XAMPPRocky/tokei/) `brew install tokei`
 - [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) `brew cask install intellij-idea-ce`
 
 ## Bash aliases
