@@ -25,30 +25,6 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 git clone https://github.com/airblade/vim-gitgutter.git ~/.vim/bundle/vim-gitgutter
 ```
 
-### Command-T
-
-[Command-T](https://github.com/wincent/command-t) provides fast file navigation for Vim.
-
-```bash
-git clone https://github.com/wincent/command-t.git ~/.vim/bundle/command-t
-```
-
-For this plugin to work you are required to compile it first before use. The key issue is that the make file and compilation must be done with the same ruby version as Vim uses. If you are using rbenv (which I do) you might end up doing it with the wrong version of ruby.
-
-[These were the commands](https://stackoverflow.com/a/46394846/6117745) I found (tweaked) that made it work for me.
-
-```bash
-cd ~/.vim/bundle/command-t/ruby/command-t/ext/command-t
-rbenv local system
-ruby extconf.rb
-make clean
-make
-```
-
-#### Use
-
-Enter `\t` to open the Command-T window and then simply start typing. It will match what you type against the files available, and hitting enter will open it.
-
 ### NERD Tree
 
 [NERD Tree](https://github.com/scrooloose/nerdtree) allows you to explore your filesystem and to open files and directories. It presents the filesystem to you in the form of a tree which you manipulate with the keyboard and/or mouse. It also allows you to perform simple filesystem operations.
