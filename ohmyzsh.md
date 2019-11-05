@@ -74,6 +74,18 @@ alias fra='. ~/.ssh/fra.sh'
 alias wcr='. ~/.ssh/wcr.sh'
 # Alias for setting the WEX environment ssh keys
 alias wex='. ~/.ssh/wex.sh'
+
+# GIT ALIAS HELPERS
+alias 'g?'='alias | grep -i "git" | grep -v "alias | grep -i" | sort | less'
+alias 'ga?'='alias | grep -i "git add" | sort | less'
+alias 'gb?'='alias | grep -i "git branch" | sort | less'
+alias 'gc?'='alias | grep -i "git commit" | sort | less'
+alias 'gch?'='alias | grep -i "git checkout" | sort | less'
+alias 'gp?'='alias | grep -i "git push" | sort | less'
+alias 'gs?'='alias | grep -i "git status" | sort | less'
+
+# BUNDLER ALIAS HELPER
+alias 'b?'='alias | grep -i "bundle" | grep -v "bundled" | sort | less'
 ```
 
 ### Plugins
