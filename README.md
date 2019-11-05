@@ -64,21 +64,6 @@ Just call `export HOMEBREW_NO_AUTO_UPDATE=1` in the terminal session you are usi
 - [Tokei](https://github.com/XAMPPRocky/tokei/) `brew install tokei`
 - [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) `brew cask install intellij-idea-ce`
 
-## Bash aliases
-
-These are general aliases I add to my bash profile
-
-```bash
-# Alias for bundle exec; simple time saver
-alias be='bundle exec'
-
-# Alias for bundle exec rails console; simple time saver
-alias rc='bundle exec rails console'
-
-# Alias for bundle exec rspec; simple time saver
-alias rs='bundle exec rspec'
-```
-
 ## Contributing
 
 If you think I'm doing something wrong or have a better way create an issue or better yet raise a pull request and show me.
