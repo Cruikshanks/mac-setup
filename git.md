@@ -60,26 +60,21 @@ git config --global fetch.prune true
 
 ### Set GPG signing
 
+You'll need to have followed the instructions in [GPG](gpg.md) first. It also includes how to find the `key id`.
+
 ```bash
 git config --global user.signingkey [key ID]
 ```
 
-See [GPG](gpg.md) and the 'Viewing keys' section on how to find the key ID.
-
-You must then add this to `.bash_profile`
-
-```bash
-# Needed to support signing of my git commits
-export GPG_TTY=$(tty)
-```
-
-Finally call the following to sign all commits by default
+Then call the following to sign all commits by default
 
 ```bash
 git config --global commit.gpgsign true
 ```
 
 This saves you having to remember to add `-S` to all your `git commit` calls.
+
+You will be required to enter your key's passphrase after every commit, but the [GPG suite](https://gpgtools.org/) has tools that let you store your passphrase in the Mac OS keychain which removes this requirement. At this time I'm happy to just keep entering it.
 
 ## Aliases
 
@@ -119,13 +114,3 @@ Some places have a habit when setting things up internally of not bothering with
 ```bash
 git config http.sslVerify false
 ```
-
-### Sign commits by default
-
-To manually sign a commit you call `git commit -S`. You can also set this as the default on a global or local level. I choose to go with local due to not all source code hosts supporting GPG signed commits.
-
-```bash
-git config commit.gpgsign true
-```
-
-You will be required to enter your key's passphrase after every commit, but the [GPG suite](https://gpgtools.org/) has tools that let you store your passphrase in the Mac OS keychain which removes this requirement. At this time I'm happy to just keep entering it.
