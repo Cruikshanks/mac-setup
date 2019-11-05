@@ -52,14 +52,6 @@ git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=28800'
 ```
 
-### Use 'simple' for push default
-
-If you just do a git push from the command line you’ll get a message about the default behaviour of push changing. This message will keep appearing until you explicitly tell git what behaviour you wish to use. Simple means it will push only the current branch, and only if their is a matching one in origin.
-
-```bash
-git config --global push.default simple
-```
-
 ### Auto prune when pulling and fetching
 
 ```bash
