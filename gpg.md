@@ -10,6 +10,14 @@ As part of following GitHub's instructions on [signing commits with gpg](https:/
 brew install gpg
 ```
 
+To support git signing of commits you normally would also add `export GPG_TTY=$(tty)` to your bash profile. As the default shell in OSX is Catalina, I'm using [Oh my zsh](ohmyzsh.md) to manage plugins for it. One plugin is [gpg-agent](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/gpg-agent) and it will handle this for you.
+
+Just add the following to your `~/.zshrc` file
+
+```bash
+plugins=(... gpg-agent)
+```
+
 ## Generating a key
 
 I now have a generated key for use when signing my git commits. However should I need to generate another one in the future just call `gpg --full-generate-key`.
