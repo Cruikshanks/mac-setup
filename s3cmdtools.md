@@ -29,4 +29,3 @@ s3cmd --access_key=UJUJUJU34344EDCOLM --secret_key=VBdsfjh875345MUTYguuiDC868689
 ```
 
 For full details checkout <http://s3tools.org/usage>
-
