@@ -16,16 +16,6 @@ Just add the following to your `~/.zshrc` file
 plugins=(... zsh-nvm)
 ```
 
-Then add the following to `~/.bash_profile`
-
-```text
-# NVM support when installed via home brew
-if [ -f "$(brew --prefix)/opt/nvm/nvm.sh" ]; then
-  export NVM_DIR="$HOME/.nvm"
-  . "$(brew --prefix)/opt/nvm/nvm.sh"
-fi
-```
-
 ## Use
 
 After installing **nvm** get the latest version of [Node.js](https://nodejs.org/) by simply running `nvm install node --lts`. To install a specific version use `nvm install v5.1.0`.
