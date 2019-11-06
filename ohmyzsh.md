@@ -96,6 +96,7 @@ Add the following plugins
 plugins=(
   git
   gpg-agent
+  zsh-nvm
   bundler
   jenv
   nvm
