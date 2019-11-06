@@ -52,14 +52,6 @@ git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=28800'
 ```
 
-### Use 'simple' for push default
-
-If you just do a git push from the command line you’ll get a message about the default behaviour of push changing. This message will keep appearing until you explicitly tell git what behaviour you wish to use. Simple means it will push only the current branch, and only if their is a matching one in origin.
-
-```bash
-git config --global push.default simple
-```
-
 ### Auto prune when pulling and fetching
 
 ```bash
@@ -68,26 +60,21 @@ git config --global fetch.prune true
 
 ### Set GPG signing
 
+You'll need to have followed the instructions in [GPG](gpg.md) first. It also includes how to find the `key id`.
+
 ```bash
 git config --global user.signingkey [key ID]
 ```
 
-See [GPG](gpg.md) and the 'Viewing keys' section on how to find the key ID.
-
-You must then add this to `.bash_profile`
-
-```bash
-# Needed to support signing of my git commits
-export GPG_TTY=$(tty)
-```
-
-Finally call the following to sign all commits by default
+Then call the following to sign all commits by default
 
 ```bash
 git config --global commit.gpgsign true
 ```
 
 This saves you having to remember to add `-S` to all your `git commit` calls.
+
+You will be required to enter your key's passphrase after every commit, but the [GPG suite](https://gpgtools.org/) has tools that let you store your passphrase in the Mac OS keychain which removes this requirement. At this time I'm happy to just keep entering it.
 
 ## Aliases
 
@@ -101,23 +88,6 @@ git config --global alias.lg4 "log --graph --abbrev-commit --decorate --date=rel
 
 To use call `git lg1` i.e. `git [alias]`.
 
-### Terminal aliases
-
-Add the following to `/.bash_profile` in order to enable quick commands that can be used in the terminal
-
-```bash
-# Alias for git status. -s means display output using the short format
-alias gs='git status -s'
-# Alias for git branch. -a means show all branches, both local and remote
-alias gb='git branch -a'
-# Alias for git add . The period means add everything
-alias ga='git add .'
-# Alias for git commit. -v means display the diff under the commit message for reference
-alias gc='git commit -v'
-# Alias for git commit --amend. -v still means display the diff under the commit message for reference
-alias gca='git commit -v --amend'
-```
-
 ## Local settings
 
 ### Allow pushing to https urls with invalid certificates
@@ -127,13 +97,3 @@ Some places have a habit when setting things up internally of not bothering with
 ```bash
 git config http.sslVerify false
 ```
-
-### Sign commits by default
-
-To manually sign a commit you call `git commit -S`. You can also set this as the default on a global or local level. I choose to go with local due to not all source code hosts supporting GPG signed commits.
-
-```bash
-git config commit.gpgsign true
-```
-
-You will be required to enter your key's passphrase after every commit, but the [GPG suite](https://gpgtools.org/) has tools that let you store your passphrase in the Mac OS keychain which removes this requirement. At this time I'm happy to just keep entering it.

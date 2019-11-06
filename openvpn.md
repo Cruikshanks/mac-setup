@@ -4,11 +4,9 @@
 
 ## Install
 
-Go to <https://openvpn-ops.aws.defra.cloud>, enter username and password and make sure to choose `login` rather than `connect`. I should then come to a screen with a link to download the Mac version of the client (opt for the beta), plus my profile.
+First download the Mac Beta client from <https://openvpn.net/vpn-server-resources/connecting-to-access-server-with-macos/#future-replacement-for-openvpn-connect-client>. After switching to it, it appears to give a more consistent connection than the current standard version.
+Then go to <https://openvpn-ops.aws.defra.cloud>, enter username and password and make sure to choose `login` rather than `connect`. I should then come to a screen with a link to download my profile.
 
-Download both, and run the client install first just hitting next (there is nothing to configure).
+Install the beta client and when complete open it up. The initial splash screen should give you the option to import a profile. Select it and choose the downloaded profile. It will be called `client.ovpn`.
 
-Once installed select `Import -> From local file` and then browse to the profile you downloaded. It will be called `client.ovpn`.
-
-That's it. It should now be ready to use. Connect entering the same username and password again.
-
+Be sure to save the password, and from then on you'll just need the Google authenticator code to login.

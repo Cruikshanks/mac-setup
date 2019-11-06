@@ -10,25 +10,35 @@ brew cask install iterm2
 
 ## Configure
 
-iTerm will pick up whatever I set in my `~/.bash_profile` in the same way as the [Terminal](terminal.md). So check that guide for **Bash completion** and **Bash Git prompt**.
-
-Specific to iTerm you need to open preferences and then
+Open preferences and then
 
 - General - Untick *Adjust window when changing the font size*
 - General - Tick *Quit when all windows are closed*
+- Apperance/General - For status bar location select *Bottom*
+- Apperance/Panes - Select *Separate status bars per pane*
 
 Finally in the iTerm2 menu click *Make iTerm2 Default Term*.
 
 ### Profiles
 
-Much like [Terminal](terminal.md) I like to default to using [Solarized](http://ethanschoonover.com/solarized). In iTerm this is much simpler to implement however. Open profiles using either the menu or CMD+o, then click *Edit profiles*.
+I like to default to using the [Solarized dark](http://ethanschoonover.com/solarized) theme. Select 'Profiles'.
 
-Click the + button at the bottom to add a new profile. Name it **Default (solarized dark)**, then make the following changes
+Click the + button at the bottom to add a new profile. Name it **Solarized dark**, then make the following changes
 
 - Colors - Select *Color Presets* and select **Solarized dark**
-- Colors - Click *Selection* and then set the color to **Snow** (there is an icon that looks like a document in the centre of the initial color selection screen which if clicked will display another color screen from which you can select **Snow**)
-- Text - Click *Change Font* and set size to 14
+- Text - Select *Droid Sans Mono for Powerline*
+- Session - Tick *Status bar enabled* (see note below for how to configure it)
 
 Finally with it selected select *Set as default* from the *Other Actions...* menu.
 
-Repeat the process again, adding a new profile only this time call it **Solarized light**, and selecting **Solarized light** as the color preset.
+Repeat the process again, adding a new profile only this time call it **Solarized light**, and selecting **Solarized light** as the color preset (useful when working in poor light).
+
+#### Status bar configuration
+
+I like to configure my status bar to show
+
+- current directory
+- current branch
+- date and time
+
+Also click *Auto-Rainbow* to give them some colour.

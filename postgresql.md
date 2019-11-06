@@ -6,7 +6,7 @@ This can prove a problem for projects that include the [pg](https://bitbucket.or
 
 ## libpq
 
-libpq is the C application programmer’s interface to PostgreSQL. libpq is a set of library functions that allow client programs to pass queries to the backend server and to receive the results of these queries.
+**libpq** is the C application programmer’s interface to PostgreSQL. libpq is a set of library functions that allow client programs to pass queries to the backend server and to receive the results of these queries.
 
 ```bash
 brew install libpq
@@ -25,8 +25,7 @@ N.B. Obviously change the version to match what you are trying to install.
 You can also tell Bundler to use libpq every time you install the pg gem in a repo in future.
 
 ```bash
-bundle config --local build.pg --with-opt-dir="/usr/local/opt/libpq"
-bundle install
+bundle config --global build.pg --with-opt-dir="/usr/local/opt/libpq"
 ```
 
 With this done, you should be able to execute or run tests in projects locally that would typically depend on an instance of Postgresql being installed.

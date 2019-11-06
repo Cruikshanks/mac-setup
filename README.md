@@ -4,16 +4,15 @@ This repo simply serves as repository for how I setup various things on a Mac, i
 
 General and base stuff will go here. App or tool specific stuff will have their own files.
 
-- [Atom](atom.md)
 - [Gemrc](gemrc.md)
 - [Git](git.md)
 - [GPG](gpg.md)
 - [iTerm2](iterm2.md)
 - [Jenv](jenv.md)
 - [NVM](nvm.md)
+- [Oh my zsh](ohmyzsh.md)
 - [OpenVPN](openvpn.md)
 - [PostgreSQL](postgresql.md)
-- [Pyenv](pyenv.md)
 - [Rbenv](rbenv.md)
 - [S3cmd tools](s3cmdtools.md)
 - [Terminal](terminal.md)
@@ -28,11 +27,6 @@ Changes I make to the Mac in settings to get it how I like it.
 
 - Untick `Automatically rearrange Spaces based on most recent use`. This will stop my full screen apps from moving position.
 - Untick `Group windows by application`. Should be able to more easily move between the windows of an app.
-- Set Dashboard as `As space`. This is what enables the sticky notes in the far left Space on a Mac.
-
-### System Preferences > Dock
-
-- Tick `Automatically hide and show the Dock`
 
 ### System Preferences > Energy Saver
 
@@ -40,16 +34,16 @@ Changes I make to the Mac in settings to get it how I like it.
 
 ### System Preferences > General
 
-- Tick `Use dark menu bar and Dock`
+- Select `Dark` appearance
 - Click in the scroll bar to `Jump to the spot that's clicked`
 
 ## Base installations
 
-Core stuff I install which also supports getting other things loaded and/or setup.
+Core stuff I install which also supports getting other things loaded and/or setup. To save time when doing these all in one go you can skip the `brew update` that happens with each `brew install`.
+
+Just call `export HOMEBREW_NO_AUTO_UPDATE=1` in the terminal session you are using to run all your installs.
 
 - [Homebrew](https://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- [Homebrew cask](https://caskroom.github.io/) `brew tap caskroom/cask`
-  - [Homebrew cask versions](https://github.com/caskroom/homebrew-versions) `brew tap caskroom/versions`
 - [Avira antivirus](https://www.avira.com/) `brew cask install avira-antivirus`
 - [Google Chrome](https://www.google.com/chrome/index.html) `brew cask install google-chrome`
 - [Firefox](https://www.mozilla.org/en-GB/firefox/new/) `brew cask install firefox`
@@ -60,32 +54,14 @@ Core stuff I install which also supports getting other things loaded and/or setu
 - [Gimp](https://www.gimp.org/) `brew cask install gimp`
 - [pgAdmin4](https://www.pgadmin.org/) `brew cask install pgadmin4`
 - [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac) *go to the site and download manually*
-- [MySQL Workbench](https://www.mysql.com/products/workbench/) `brew cask install mysqlworkbench`
 - [Slack](https://slack.com/downloads/osx) *go to the site and download manually*
-- [Skype](https://www.skype.com/en/) `brew cask install skype`
-- [PhantomJS](http://phantomjs.org/) `brew cask install phantomjs`
 - [Trailer](https://github.com/ptsochantaris/trailer) `brew cask install trailer`
 - [Robo 3T](https://robomongo.org/) `brew cask install robo-3t`
 - [Cheat](https://github.com/chrisallenlane/cheat) `brew install cheat`
 - [tldr](https://github.com/tldr-pages/tldr) `brew install tldr`
 - [Keka](https://www.keka.io/en/) `brew cask install keka`
-- [Tokei](https://github.com/XAMPPRocky/tokei/) `brew cask install tokei`
+- [Tokei](https://github.com/XAMPPRocky/tokei/) `brew install tokei`
 - [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) `brew cask install intellij-idea-ce`
-
-## Bash aliases
-
-These are general aliases I add to my bash profile
-
-```bash
-# Alias for bundle exec; simple time saver
-alias be='bundle exec'
-
-# Alias for bundle exec rails console; simple time saver
-alias rc='bundle exec rails console'
-
-# Alias for bundle exec rspec; simple time saver
-alias rs='bundle exec rspec'
-```
 
 ## Contributing
 
