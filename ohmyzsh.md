@@ -99,7 +99,6 @@ plugins=(
   bundler
   jenv
   nvm
-  pyenv
   rbenv
 )
 ```

@@ -13,7 +13,6 @@ General and base stuff will go here. App or tool specific stuff will have their 
 - [Oh my zsh](ohmyzsh.md)
 - [OpenVPN](openvpn.md)
 - [PostgreSQL](postgresql.md)
-- [Pyenv](pyenv.md)
 - [Rbenv](rbenv.md)
 - [S3cmd tools](s3cmdtools.md)
 - [Terminal](terminal.md)
