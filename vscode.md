@@ -29,7 +29,13 @@ Open the **settings** via `Preferences -> Settings`
 - Files: Trim Trailing Whitespace = true
 - Files: Insert Final Newline = true
 - Appearance: Color Theme = Solarized Dark
-- Workbench: Startup Editor  = none
+- Workbench: Startup Editor = none
+
+#### Terminal font
+
+I found I had an issue with missing symbols in the terminal once I'd set up [oh-my-zsh](ohmyzsh.md). To ensure they displayed correctly I needed to set the following setting to match whatever I have set for the font in [iTerm2](iterm2.md).
+
+- Terminal, Integrated: Font Family = 'Liberation Mono for Powerline'
 
 ## Extensions
 
