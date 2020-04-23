@@ -131,6 +131,27 @@ Run your Ruby tests in the Sidebar of Visual Studio Code
 
 Didn't spot to begin with, but it will add a new icon in the sidebar that looks like a flask. You can then interact with the test runner from there.
 
+### Settings Sync
+
+Synchronize Settings, Snippets, Themes, File Icons, Launch, Keybindings, Workspaces and Extensions Across Multiple Machines Using GitHub Gist.
+
+<https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync>
+
+## Setup
+
+When first installed it will need a GitHub token that has permissions to manage Gists. On first install it will create the Gist for you. If setting up a new machine it will want the existing Gist ID.
+
+- Sync: Auto Download = true
+- Sync: Auto Upload = true
+- Sync: Quiet Sync = true
+
+The extension will handle everything on VSCode for you, but can also be used to sync over files. I have added the following custom entries so they can be synced across my machines by the tool.
+
+- ~/.gemrc
+- ~/.rspec
+- ~/.vimrc
+- ~/.zshrc
+
 ### Simple Ruby ERB
 
 Provides simple Ruby and ERB language, code snippets and ERB tag helper support for Visual Studio Code without messing with linting or debugging
