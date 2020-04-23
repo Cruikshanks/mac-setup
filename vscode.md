@@ -123,12 +123,6 @@ gem install solargraph
 
 Back in VSCode open the settings for Solargraph and set Diagnostics to `true`. This will enable rubocop. Then restart VSCode and all should be good.
 
-### XML tools
-
-XML Formatting, XQuery, and XPath Tools for Visual Studio Code.
-
-<https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml>
-
 ### Ruby Test Explorer
 
 Run your Ruby tests in the Sidebar of Visual Studio Code
@@ -166,3 +160,9 @@ Highlight trailing spaces and delete them in a flash!
 Display pdf in VSCode.
 
 <https://marketplace.visualstudio.com/items?itemName=tomoki1207.pdf>
+
+### XML tools
+
+XML Formatting, XQuery, and XPath Tools for Visual Studio Code.
+
+<https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml>
