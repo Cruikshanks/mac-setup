@@ -131,6 +131,12 @@ Run your Ruby tests in the Sidebar of Visual Studio Code
 
 Didn't spot to begin with, but it will add a new icon in the sidebar that looks like a flask. You can then interact with the test runner from there.
 
+### Simple Ruby ERB
+
+Provides simple Ruby and ERB language, code snippets and ERB tag helper support for Visual Studio Code without messing with linting or debugging
+
+<https://marketplace.visualstudio.com/items?itemName=vortizhe.simple-ruby-erb>
+
 ### SQLTools
 
 Database management done right. Connection explorer, query runner, intellisense, bookmarks, query history. (Mainly got for the SQL intellisense)
