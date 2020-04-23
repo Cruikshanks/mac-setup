@@ -50,6 +50,18 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 
 Then in your `.zshrc` file set `ZSH_THEME="spaceship"`.
 
+### Environment variables
+
+Rather than add environment variables I always wanted loaded directly to this file, I instead add them to `~/.env_vars` and then source that file with the following.
+
+```bash
+# Source custom env vars. By putting them in a separate file I can save my
+# .zshrc to GitHub whilst protecting anything secret
+source ~/.env_vars
+```
+
+This isn't a dotenv file so you will need to include the `export` statement e.g. `export CHANGELOG_GITHUB_TOKEN="biglongscarynumberhashthingy"`.
+
 ### Default user
 
 This is an extra thing that was required when first trying the agnoster theme
@@ -86,6 +98,13 @@ alias 'gs?'='alias | grep -i "git status" | sort | less'
 
 # BUNDLER ALIAS HELPER
 alias 'b?'='alias | grep -i "bundle" | grep -v "bundled" | sort | less'
+
+# Navigate to my icloud folder
+alias icloud='cd ~/Library/Mobile\ Documents/com\~apple\~CloudDocs'
+
+# Display the tree structure including files for current folder
+# https://stackoverflow.com/a/59694976/6117745
+alias lst='find . | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"'
 ```
 
 ### Plugins
@@ -105,3 +124,7 @@ plugins=(
 ```
 
 Rather than go into them here, why they have been added and a little about what they do will be covered in the relevant pages of this guide.
+
+## Syncing
+
+This file is currently synced across machines using the [Settings Sync](https://github.com/Cruikshanks/mac-setup/blob/master/vscode.md#settings-sync) extension in VSCode.

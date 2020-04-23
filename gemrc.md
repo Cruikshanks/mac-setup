@@ -21,3 +21,7 @@ Open the file and add the following
 # gem install
 gem: --no-document
 ```
+
+## Syncing
+
+This file is currently synced across machines using the [Settings Sync](https://github.com/Cruikshanks/mac-setup/blob/master/vscode.md#settings-sync) extension in VSCode.
