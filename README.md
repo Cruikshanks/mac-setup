@@ -15,6 +15,7 @@ General and base stuff will go here. App or tool specific stuff will have their 
 - [PostgreSQL](postgresql.md)
 - [Rbenv](rbenv.md)
 - [S3cmd tools](s3cmdtools.md)
+- [SSH](ssh.md)
 - [Terminal](terminal.md)
 - [Vim](vim.md)
 - [VSCode](vscode.md)
