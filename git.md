@@ -58,6 +58,39 @@ git config --global credential.helper 'cache --timeout=28800'
 git config --global fetch.prune true
 ```
 
+### Set pull strategy
+
+```bash
+git config --global pull.ff only
+```
+
+Recently Git 2.27 adding a warning if doing a git pull when the `git config pull` setting is missing. The full message is
+
+```text
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+```
+
+I did not realise that a `git pull` is not a harmless operation.
+
+> In its default mode, git pull is shorthand for git fetch followed by git merge FETCH_HEAD.
+>
+> [How to deal with this git warning?](https://stackoverflow.com/a/62653400/6117745)
+
+The default strategy is `git config pull.rebase false` which could end up creating a merge commit if there is a difference between the branches. With `git pull --ff-only`, Git will update the branch only if it can be "fast-forwarded" without making new commits. If it can't it will just abort with an error message.
+
+This is how I'd prefer it behave. So this is the strategy I have gone with. I can deal with any divergence manually then.
+
 ### Set GPG signing
 
 You'll need to have followed the instructions in [GPG](gpg.md) first. It also includes how to find the `key id`.
