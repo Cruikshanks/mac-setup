@@ -1,5 +1,7 @@
 # Mac setup
 
+> Test test test!
+
 This repo simply serves as repository for how I setup various things on a Mac, in case of the time when I either change it or it blows up!
 
 General and base stuff will go here. App or tool specific stuff will have their own files.
