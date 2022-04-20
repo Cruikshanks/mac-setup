@@ -37,6 +37,12 @@ Have found port 22 for SSH can often be blocked, which can cause issues when pul
 git config --global url."https://".insteadOf git://
 ```
 
+### Default initial branch name
+
+```bash
+git config --global init.defaultBranch main
+```
+
 ### Stop git asking for GitHub username
 
 ```bash
