@@ -20,7 +20,7 @@ git config --global user.email "alan.cruikshanks@gmail.com"
 ### Set default editor
 
 ```bash
-git config --global core.editor "vim"
+git config --global core.editor "code --wait --disable-extensions"
 ```
 
 ### Color git output
