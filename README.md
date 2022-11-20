@@ -88,6 +88,7 @@ Just call `export HOMEBREW_NO_AUTO_UPDATE=1` in the terminal session you are usi
 - [pgAdmin4](https://www.pgadmin.org/) `brew install --cask pgadmin4`
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) `brew install --cask docker`
 - [Slack](https://slack.com/downloads/osx) `brew install --cask slack`
+- [InTune](https://learn.microsoft.com/en-us/mem/intune/user-help/enroll-your-device-in-intune-macos-cp) `brew install --cask intune-company-portal`
 - [Trailer](https://github.com/ptsochantaris/trailer) `brew install --cask trailer`
 - [Keka](https://www.keka.io/en/) `brew install --cask keka`
 - [Tokei](https://github.com/XAMPPRocky/tokei/) `brew install tokei`
