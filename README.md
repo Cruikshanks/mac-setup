@@ -83,24 +83,15 @@ Core stuff I install which also supports getting other things loaded and/or setu
 Just call `export HOMEBREW_NO_AUTO_UPDATE=1` in the terminal session you are using to run all your installs.
 
 - [Homebrew](https://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- [Avira antivirus](https://www.avira.com/) `brew cask install avira-antivirus`
-- [Google Chrome](https://www.google.com/chrome/index.html) `brew cask install google-chrome`
-- [Firefox](https://www.mozilla.org/en-GB/firefox/new/) `brew cask install firefox`
-- [Evernote](https://evernote.com/) `brew cask install evernote`
-- [VirtualBox](https://www.virtualbox.org/) `brew cask install virtualbox`
-  - [VirtualBox extension pack](https://www.virtualbox.org/wiki/Downloads) `brew cask install virtualbox-extension-pack`
-- [Vagrant](https://www.vagrantup.com/) `brew cask install vagrant`
-- [Gimp](https://www.gimp.org/) `brew cask install gimp`
-- [pgAdmin4](https://www.pgadmin.org/) `brew cask install pgadmin4`
-- [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac) *go to the site and download manually*
-- [Slack](https://slack.com/downloads/osx) *go to the site and download manually*
-- [Trailer](https://github.com/ptsochantaris/trailer) `brew cask install trailer`
-- [Robo 3T](https://robomongo.org/) `brew cask install robo-3t`
-- [Cheat](https://github.com/chrisallenlane/cheat) `brew install cheat`
-- [tldr](https://github.com/tldr-pages/tldr) `brew install tldr`
-- [Keka](https://www.keka.io/en/) `brew cask install keka`
+- [Avast antivirus](https://www.avast.com/en-gb/index#mac) `brew install --cask avast-security`
+- [Google Chrome](https://www.google.com/chrome/index.html) `brew install --cask google-chrome`
+- [pgAdmin4](https://www.pgadmin.org/) `brew install --cask pgadmin4`
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) `brew install --cask docker`
+- [Slack](https://slack.com/downloads/osx) `brew install --cask slack`
+- [Trailer](https://github.com/ptsochantaris/trailer) `brew install --cask trailer`
+- [Keka](https://www.keka.io/en/) `brew install --cask keka`
 - [Tokei](https://github.com/XAMPPRocky/tokei/) `brew install tokei`
-- [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) `brew cask install intellij-idea-ce`
+- [The Silver searcher (ag)](https://github.com/ggreer/the_silver_searcher) `brew install the_silver_searcher`
 
 ## Contributing
 
