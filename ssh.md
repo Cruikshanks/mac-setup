@@ -72,16 +72,24 @@ Host *
   # env you are interested in
   IdentitiesOnly yes
   IdentityFile ~/.ssh/id_rsa
+  # Added to support connecting to AWS instances on macOS Ventura. RSA and SHA1
+  # are known to be vulnerable so many ssh clients are now disabling them by
+  # default. When moving to the new Mac Pro M1's running Ventura we found we
+  # were getting `Sign_and_send_pubkey: no mutual signature supported`.
+  # Thanks to https://stackoverflow.com/a/74258486/6117745 we figured out adding
+  # these 2 entries resolved the issue.
+  PubkeyAcceptedKeyTypes=+ssh-rsa
+  HostKeyAlgorithms=+ssh-rsa
 
 ```
 
-The comments in the code explain whats going on. My notes around `Include config.d/*` are recent so should be accurate. The rest have been copied and pasted from build to build over the last 5 years. Key is stuff still seems to work! But be warned, they may now be out of date or not the best way to go about things.
+The comments in the code explain whats going on. My notes around `PubkeyAcceptedKeyTypes` are recent so should be accurate. The rest have been copied and pasted from build to build over the last 5 years. Stuff still seems to work! But be warned, they may now be out of date or not the best way to go about things.
 
 ## Add your first 'service'
 
 By service I mean all environments related to a 'thing'. For example, the Defra Digital Service [Waste Exemptions (WEX)](https://www.gov.uk/guidance/register-your-waste-exemptions-environmental-permits) is a 'thing' I work on. Like a lot of things behind the scenes it has multiple environments, each of which I may need to connect to.
 
-> I'm going to use WEX as my example service throughout. So where you see WEX feel free to choose a different name.
+> I'm going to use WEX as my example service throughout. So, where you see WEX feel free to choose a different name.
 
 ### ssh keys
 
