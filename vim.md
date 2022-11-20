@@ -135,7 +135,3 @@ map <F2> :NERDTreeToggle<CR>
 call togglebg#map("<F5>")
 
 ```
-
-## Syncing
-
-This file is currently synced across machines using the [Settings Sync](https://github.com/Cruikshanks/mac-setup/blob/master/vscode.md#settings-sync) extension in VSCode.
