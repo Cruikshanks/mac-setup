@@ -7,7 +7,7 @@ Extremely oversimplifying things here but essentially
 - the **shell** is a program which processes commands and returns output
 - the **terminal** is a program that runs a shell, and passes your inputs to it, and displays its output
 
-Previously the default **shell** in OSX was [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) but with Catalina its been changed to [zsh](https://en.wikipedia.org/wiki/Z_shell).
+Previously the default **shell** in OSX was [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) but with Catalina it was changed to [zsh](https://en.wikipedia.org/wiki/Z_shell).
 
 Again, simplifying things, **zsh** contains improvements over **bash** including automatic `cd` and spelling correction with approximate completion.
 
@@ -17,7 +17,7 @@ The key thing for me is, when previously using bash I would manage my config man
 
 ## Install
 
-```bash
+```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
@@ -52,7 +52,7 @@ Then in your `.zshrc` file set `ZSH_THEME="spaceship"`.
 
 ### Environment variables
 
-Rather than add environment variables I always wanted loaded directly to this file, I instead add them to `~/.env_vars` and then source that file with the following.
+Rather than include environment variables I need loaded directly to this file, instead I add them to `~/.env_vars` and then source that file with the following.
 
 ```bash
 # Source custom env vars. By putting them in a separate file I can save my
@@ -62,32 +62,48 @@ source ~/.env_vars
 
 This isn't a dotenv file so you will need to include the `export` statement e.g. `export CHANGELOG_GITHUB_TOKEN="biglongscarynumberhashthingy"`.
 
-### Default user
+### Functions
 
-This is an extra thing that was required when first trying the agnoster theme
+I only have one custom function so far.
 
 ```bash
-# Needed as part of using agnoster theme. They said using below
-# but didn't work so googling suggested do this instead
-# DEFAULT_USER=acruikshanks prompt_context(){}
-DEFAULT_USER=$(whoami)
+# Handy function that allows me to load a .js file into the node CLI
+# -i = Opens the REPL even if stdin does not appear to be a terminal
+# -e = Evaluate the following argument as JavaScript
+# Thanks so much to https://stackoverflow.com/a/50731756/6117745
+noderepl() {
+  FILE_CONTENTS="$(< $1 )"
+  node -i -e "$FILE_CONTENTS"
+}
 ```
-
-It doesn't hurt to have it there, particularly as I am still playing with themes.
 
 ### Aliases
 
 Add the following aliases below the example ones
 
 ```bash
+# SSH ALIASES
 # Alias for setting the FRAE environment ssh keys
 alias fra='. ~/.ssh/fra.sh'
 # Alias for setting the WCR environment ssh keys
 alias wcr='. ~/.ssh/wcr.sh'
 # Alias for setting the WEX environment ssh keys
 alias wex='. ~/.ssh/wex.sh'
+# Alias for setting the TCM environment ssh keys
+alias tcm='. ~/.ssh/tcm.sh'
+# Alias for setting the PAF environment ssh keys
+alias paf='. ~/.ssh/paf.sh'
+# Alias for setting the WAL environment ssh keys
+alias wal='. ~/.ssh/wal.sh'
 
 # GIT ALIAS HELPERS
+alias gcae='git commit --allow-empty'
+# This first alias overrides the one provided in the git plugin which checks out master as the default
+alias gcm='git checkout main'
+# Recently switched to a project that is yet to switch to using main
+alias gcmm='git checkout master'
+# Use for projects that are using develop
+alias gcd='git checkout develop'
 alias 'g?'='alias | grep -i "git" | grep -v "alias | grep -i" | sort | less'
 alias 'ga?'='alias | grep -i "git add" | sort | less'
 alias 'gb?'='alias | grep -i "git branch" | sort | less'
@@ -95,9 +111,10 @@ alias 'gc?'='alias | grep -i "git commit" | sort | less'
 alias 'gch?'='alias | grep -i "git checkout" | sort | less'
 alias 'gp?'='alias | grep -i "git push" | sort | less'
 alias 'gs?'='alias | grep -i "git status" | sort | less'
-
-# BUNDLER ALIAS HELPER
-alias 'b?'='alias | grep -i "bundle" | grep -v "bundled" | sort | less'
+# Undo last commit - soft
+alias gu='git reset --soft HEAD~1'
+# Undo last commit - hard
+alias guh='git reset --hard HEAD~1'
 
 # Navigate to my icloud folder
 alias icloud='cd ~/Library/Mobile\ Documents/com\~apple\~CloudDocs'
@@ -105,6 +122,9 @@ alias icloud='cd ~/Library/Mobile\ Documents/com\~apple\~CloudDocs'
 # Display the tree structure including files for current folder
 # https://stackoverflow.com/a/59694976/6117745
 alias lst='find . | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"'
+
+# Temporary alias whilst I go through and rename `master` to `main` in our repos
+alias m2m='git checkout master && git pull && git branch -m master main && git push -u origin main'
 ```
 
 ### Plugins
@@ -112,19 +132,7 @@ alias lst='find . | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"'
 Add the following plugins
 
 ```bash
-plugins=(
-  git
-  gpg-agent
-  zsh-nvm
-  bundler
-  jenv
-  nvm
-  rbenv
-)
+plugins=(git gpg-agent nvm)
 ```
 
-Rather than go into them here, why they have been added and a little about what they do will be covered in the relevant pages of this guide.
-
-## Syncing
-
-This file is currently synced across machines using the [Settings Sync](https://github.com/Cruikshanks/mac-setup/blob/master/vscode.md#settings-sync) extension in VSCode.
+Rather than go into them here, why they have been added and a little about what they do will is covered in the relevant pages of this guide.
