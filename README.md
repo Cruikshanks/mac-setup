@@ -20,23 +20,61 @@ General and base stuff will go here. App or tool specific stuff will have their 
 - [Vim](vim.md)
 - [VSCode](vscode.md)
 
-## General
+## System Settings
 
 Changes I make to the Mac in settings to get it how I like it.
 
-### System Preferences > Mission Control
+### Sound
+
+- Untick `Play sound on startup`
+
+### General > Software Update > Automatic updates
+
+- Tick `Install application updates from the App store`
+
+### General > AirDrop & Handoff
+
+- Change `AirDrop` to `Everyone`
+
+### Appearance
+
+- Set `Appearance` to `Dark`
+- Set `Show scroll bars` to `Always`
+- Set `Click in the scroll bar to` to `Jump to the spot that's clicked`
+
+### Siri & Spotlight
+
+- Untick `Ask Siri`
+
+### Desktop & Dock
+
+- Set `Position on screen` to `Left`
+
+### Desktop & Dock > Mission Control
 
 - Untick `Automatically rearrange Spaces based on most recent use`. This will stop my full screen apps from moving position.
 - Untick `Group windows by application`. Should be able to more easily move between the windows of an app.
 
-### System Preferences > Energy Saver
+### Displays > Night shift
 
-- Power adapter > Untick `Put hard disks to sleep when possible` and `Wake up for Wi-Fi network access`
+- Set `Schedule` to `Sunset to Sunrise`
 
-### System Preferences > General
+### Wallpaper
 
-- Select `Dark` appearance
-- Click in the scroll bar to `Jump to the spot that's clicked`
+- Use black color
+
+### Battery
+
+- Set `Low Power Mode` to `Never`
+
+### Keyboard
+
+- Set `Turn backlight keyboard off after inactivity` to `After 5 minutes`
+
+### Trackpad
+
+- Untick `Force Click and haptic feedback`
+- Untick `Look up & data detectors`
 
 ## Base installations
 
