@@ -90,6 +90,7 @@ Just call `export HOMEBREW_NO_AUTO_UPDATE=1` in the terminal session you are usi
 - [Slack](https://slack.com/downloads/osx) `brew install --cask slack`
 - [InTune](https://learn.microsoft.com/en-us/mem/intune/user-help/enroll-your-device-in-intune-macos-cp) `brew install --cask intune-company-portal`
 - [Trailer](https://github.com/ptsochantaris/trailer) `brew install --cask trailer`
+- [Postman](https://www.postman.com/) `brew install --cask postman`
 - [Keka](https://www.keka.io/en/) `brew install --cask keka`
 - [Tokei](https://github.com/XAMPPRocky/tokei/) `brew install tokei`
 - [The Silver searcher (ag)](https://github.com/ggreer/the_silver_searcher) `brew install the_silver_searcher`
