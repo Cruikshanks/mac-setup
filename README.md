@@ -20,23 +20,61 @@ General and base stuff will go here. App or tool specific stuff will have their 
 - [Vim](vim.md)
 - [VSCode](vscode.md)
 
-## General
+## System Settings
 
 Changes I make to the Mac in settings to get it how I like it.
 
-### System Preferences > Mission Control
+### Sound
+
+- Untick `Play sound on startup`
+
+### General > Software Update > Automatic updates
+
+- Tick `Install application updates from the App store`
+
+### General > AirDrop & Handoff
+
+- Change `AirDrop` to `Everyone`
+
+### Appearance
+
+- Set `Appearance` to `Dark`
+- Set `Show scroll bars` to `Always`
+- Set `Click in the scroll bar to` to `Jump to the spot that's clicked`
+
+### Siri & Spotlight
+
+- Untick `Ask Siri`
+
+### Desktop & Dock
+
+- Set `Position on screen` to `Left`
+
+### Desktop & Dock > Mission Control
 
 - Untick `Automatically rearrange Spaces based on most recent use`. This will stop my full screen apps from moving position.
 - Untick `Group windows by application`. Should be able to more easily move between the windows of an app.
 
-### System Preferences > Energy Saver
+### Displays > Night shift
 
-- Power adapter > Untick `Put hard disks to sleep when possible` and `Wake up for Wi-Fi network access`
+- Set `Schedule` to `Sunset to Sunrise`
 
-### System Preferences > General
+### Wallpaper
 
-- Select `Dark` appearance
-- Click in the scroll bar to `Jump to the spot that's clicked`
+- Use black color
+
+### Battery
+
+- Set `Low Power Mode` to `Never`
+
+### Keyboard
+
+- Set `Turn backlight keyboard off after inactivity` to `After 5 minutes`
+
+### Trackpad
+
+- Untick `Force Click and haptic feedback`
+- Untick `Look up & data detectors`
 
 ## Base installations
 
@@ -45,24 +83,17 @@ Core stuff I install which also supports getting other things loaded and/or setu
 Just call `export HOMEBREW_NO_AUTO_UPDATE=1` in the terminal session you are using to run all your installs.
 
 - [Homebrew](https://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- [Avira antivirus](https://www.avira.com/) `brew cask install avira-antivirus`
-- [Google Chrome](https://www.google.com/chrome/index.html) `brew cask install google-chrome`
-- [Firefox](https://www.mozilla.org/en-GB/firefox/new/) `brew cask install firefox`
-- [Evernote](https://evernote.com/) `brew cask install evernote`
-- [VirtualBox](https://www.virtualbox.org/) `brew cask install virtualbox`
-  - [VirtualBox extension pack](https://www.virtualbox.org/wiki/Downloads) `brew cask install virtualbox-extension-pack`
-- [Vagrant](https://www.vagrantup.com/) `brew cask install vagrant`
-- [Gimp](https://www.gimp.org/) `brew cask install gimp`
-- [pgAdmin4](https://www.pgadmin.org/) `brew cask install pgadmin4`
-- [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac) *go to the site and download manually*
-- [Slack](https://slack.com/downloads/osx) *go to the site and download manually*
-- [Trailer](https://github.com/ptsochantaris/trailer) `brew cask install trailer`
-- [Robo 3T](https://robomongo.org/) `brew cask install robo-3t`
-- [Cheat](https://github.com/chrisallenlane/cheat) `brew install cheat`
-- [tldr](https://github.com/tldr-pages/tldr) `brew install tldr`
-- [Keka](https://www.keka.io/en/) `brew cask install keka`
+- [Avast antivirus](https://www.avast.com/en-gb/index#mac) `brew install --cask avast-security`
+- [Google Chrome](https://www.google.com/chrome/index.html) `brew install --cask google-chrome`
+- [pgAdmin4](https://www.pgadmin.org/) `brew install --cask pgadmin4`
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) `brew install --cask docker`
+- [Slack](https://slack.com/downloads/osx) `brew install --cask slack`
+- [InTune](https://learn.microsoft.com/en-us/mem/intune/user-help/enroll-your-device-in-intune-macos-cp) `brew install --cask intune-company-portal`
+- [Trailer](https://github.com/ptsochantaris/trailer) `brew install --cask trailer`
+- [Postman](https://www.postman.com/) `brew install --cask postman`
+- [Keka](https://www.keka.io/en/) `brew install --cask keka`
 - [Tokei](https://github.com/XAMPPRocky/tokei/) `brew install tokei`
-- [IntelliJ IDEA CE](https://www.jetbrains.com/idea/) `brew cask install intellij-idea-ce`
+- [The Silver searcher (ag)](https://github.com/ggreer/the_silver_searcher) `brew install the_silver_searcher`
 
 ## Contributing
 

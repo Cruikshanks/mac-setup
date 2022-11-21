@@ -43,21 +43,6 @@ git config --global url."https://".insteadOf git://
 git config --global init.defaultBranch main
 ```
 
-### Stop git asking for GitHub username
-
-```bash
-git config --global url."https://Cruikshanks@github.com".insteadOf "https://github.com"
-```
-
-### Cache passwords
-
-This will cache a password for a day, so only requires you to enter it the once. The first command enables the cache. The second sets the timeout to 8 hours.
-
-```bash
-git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=28800'
-```
-
 ### Auto prune when pulling and fetching
 
 ```bash
@@ -70,7 +55,7 @@ git config --global fetch.prune true
 git config --global pull.ff only
 ```
 
-Recently Git 2.27 adding a warning if doing a git pull when the `git config pull` setting is missing. The full message is
+Git 2.27 adding a warning if doing a git pull when the `git config pull` setting is missing. The full message is
 
 ```text
 warning: Pulling without specifying how to reconcile divergent branches is
@@ -113,7 +98,7 @@ git config --global commit.gpgsign true
 
 This saves you having to remember to add `-S` to all your `git commit` calls.
 
-You will be required to enter your key's passphrase after every commit, but the [GPG suite](https://gpgtools.org/) has tools that let you store your passphrase in the Mac OS keychain which removes this requirement. At this time I'm happy to just keep entering it.
+Having done this, [GPG](gpg.md) includes instructions on how to **Sign commits automatically**. Follow that to avoid having to input your passphrase everytime.
 
 ## Aliases
 

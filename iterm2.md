@@ -5,15 +5,17 @@
 ## Install
 
 ```bash
-brew cask install iterm2
+brew install --cask iterm2
 ```
 
 ## Configure
 
-Open preferences and then
+Open settings and then
 
-- General - Untick *Adjust window when changing the font size*
-- General - Tick *Quit when all windows are closed*
+- General/Closing - Tick *Quit when all windows are closed*
+- General/Closing - Untick *Confirm closing multiple sessions*
+- General/Closing - Untick *Confirm "Quit iTerm2"*
+- General/Window - Untick *Adjust window when changing the font size*
 - Apperance/General - For status bar location select *Bottom*
 - Apperance/Panes - Select *Separate status bars per pane*
 
