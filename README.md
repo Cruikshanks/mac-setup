@@ -4,16 +4,12 @@ This repo simply serves as repository for how I setup various things on a Mac, i
 
 General and base stuff will go here. App or tool specific stuff will have their own files.
 
-- [Gemrc](gemrc.md)
 - [Git](git.md)
 - [GPG](gpg.md)
 - [iTerm2](iterm2.md)
-- [Jenv](jenv.md)
 - [NVM](nvm.md)
 - [Oh my zsh](ohmyzsh.md)
 - [OpenVPN](openvpn.md)
-- [PostgreSQL](postgresql.md)
-- [Rbenv](rbenv.md)
 - [S3cmd tools](s3cmdtools.md)
 - [SSH](ssh.md)
 - [Terminal](terminal.md)
