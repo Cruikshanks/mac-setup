@@ -90,6 +90,7 @@ Just call `export HOMEBREW_NO_AUTO_UPDATE=1` in the terminal session you are usi
 - [Keka](https://www.keka.io/en/) `brew install --cask keka`
 - [Tokei](https://github.com/XAMPPRocky/tokei/) `brew install tokei`
 - [The Silver searcher (ag)](https://github.com/ggreer/the_silver_searcher) `brew install the_silver_searcher`
+- [Licecap](https://www.cockos.com/licecap/) `brew install --cask licecap`
 
 ## Contributing
 
