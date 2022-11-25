@@ -81,7 +81,7 @@ Just call `export HOMEBREW_NO_AUTO_UPDATE=1` in the terminal session you are usi
 - [Homebrew](https://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - [Avast antivirus](https://www.avast.com/en-gb/index#mac) `brew install --cask avast-security`
 - [Google Chrome](https://www.google.com/chrome/index.html) `brew install --cask google-chrome`
-- [pgAdmin4](https://www.pgadmin.org/) `brew install --cask pgadmin4`
+- [DBeaver](https://dbeaver.io/) `brew install --cask dbeaver-community`
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) `brew install --cask docker`
 - [Slack](https://slack.com/downloads/osx) `brew install --cask slack`
 - [InTune](https://learn.microsoft.com/en-us/mem/intune/user-help/enroll-your-device-in-intune-macos-cp) `brew install --cask intune-company-portal`
