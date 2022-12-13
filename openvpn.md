@@ -4,7 +4,7 @@
 
 ## Install
 
-First download the Mac client from <https://openvpn.net/vpn-server-resources/connecting-to-access-server-with-macos/>. Then go to <https://openvpn-ops.aws.defra.cloud>, enter username and password and make sure to choose `login` rather than `connect`. I should then come to a screen with a link to download my profile.
+First install the Mac client; `brew install --cask openvpn-connect`. Then go to <https://openvpn-ops.aws.defra.cloud>, enter username and password and make sure to choose `login` rather than `connect`. I should then come to a screen with a link to download my profile.
 
 Install the client and when complete open it up. The initial splash screen should give you the option to import a profile. Select it and choose the downloaded profile. It will have the extension `*.ovpn`.
 
