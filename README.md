@@ -78,7 +78,7 @@ Core stuff I install which also supports getting other things loaded and/or setu
 
 Just call `export HOMEBREW_NO_AUTO_UPDATE=1` in the terminal session you are using to run all your installs.
 
-- [Homebrew](https://brew.sh/) `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- [Homebrew](https://brew.sh/) `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 - [Avast antivirus](https://www.avast.com/en-gb/index#mac) `brew install --cask avast-security`
 - [Google Chrome](https://www.google.com/chrome/index.html) `brew install --cask google-chrome`
 - [DBeaver](https://dbeaver.io/) `brew install --cask dbeaver-community`
