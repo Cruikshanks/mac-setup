@@ -117,6 +117,8 @@ alias 'gs?'='alias | grep -i "git status" | sort | less'
 alias gu='git reset --soft HEAD~1'
 # Undo last commit - hard
 alias guh='git reset --hard HEAD~1'
+# Change commit author - handy after an npm version
+alias gcca='git commit --amend --reset-author --no-edit'
 
 # Navigate to my icloud folder
 alias icloud='cd ~/Library/Mobile\ Documents/com\~apple\~CloudDocs'
