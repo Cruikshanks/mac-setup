@@ -90,10 +90,11 @@ You'll need to have followed the instructions in [GPG](gpg.md) first. It also in
 git config --global user.signingkey [key ID]
 ```
 
-Then call the following to sign all commits by default
+Then call the following to sign all commits and tags by default
 
 ```bash
 git config --global commit.gpgsign true
+git config --global tag.gpgSign true
 ```
 
 This saves you having to remember to add `-S` to all your `git commit` calls.
