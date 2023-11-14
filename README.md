@@ -93,7 +93,7 @@ Just call `export HOMEBREW_NO_AUTO_UPDATE=1` in the terminal session you are usi
 - [The Silver searcher (ag)](https://github.com/ggreer/the_silver_searcher) `brew install the_silver_searcher`
 - [Licecap](https://www.cockos.com/licecap/) `brew install --cask licecap`
 - [Stats](https://github.com/exelban/stats) `brew install --cask stats`
-- [Jitsi]([https://meet.jit.si/](https://jitsi.org/)) `brew install --cask jitsi-meet`
+- [Jitsi](https://jitsi.org/) `brew install --cask jitsi-meet`
 
 ## Contributing
 
