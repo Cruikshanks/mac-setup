@@ -20,8 +20,6 @@ Add the following to the `~/.env_vars` file
 
 ```bash
 # Config options for plugin https://github.com/lukechilds/zsh-nvm
-# Load nvm (needed to support auto-use)
-export NVM_LAZY_LOAD=true
 # Support auto loading of correct node version based on .nvmrc files
 export NVM_AUTO_USE=true
 # Add additional nvm completion
