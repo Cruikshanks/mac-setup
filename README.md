@@ -78,13 +78,12 @@ Changes I make to the Mac in settings to get it how I like it.
 
 Core stuff I install which also supports getting other things loaded and/or setup. All are installed using [Homebrew](/homebrew.md). So, go check that guide first then come back here!
 
-- [Avast antivirus](https://www.avast.com/en-gb/index#mac) `brew install --cask avast-security`
+- [Avast antivirus](https://www.avast.com/en-gb/index#mac) `brew install --cask avast-security` (only on unmanaged Macs)
 - [Google Chrome](https://www.google.com/chrome/index.html) `brew install --cask google-chrome`
 - [DBeaver](https://dbeaver.io/) `brew install --cask dbeaver-community`
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) `brew install --cask docker`
 - [Discord](brew install --cask discord)
 - [Slack](https://slack.com/downloads/osx) `brew install --cask slack`
-- [InTune](https://learn.microsoft.com/en-us/mem/intune/user-help/enroll-your-device-in-intune-macos-cp) `brew install --cask intune-company-portal`
 - [Trailer](https://github.com/ptsochantaris/trailer) `brew install --cask trailer`
 - [Postman](https://www.postman.com/) `brew install --cask postman`
 - [Keka](https://www.keka.io/en/) `brew install --cask keka`
