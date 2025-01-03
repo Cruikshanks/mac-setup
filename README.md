@@ -85,6 +85,7 @@ Just call `export HOMEBREW_NO_AUTO_UPDATE=1` in the terminal session you are usi
 - [Google Chrome](https://www.google.com/chrome/index.html) `brew install --cask google-chrome`
 - [DBeaver](https://dbeaver.io/) `brew install --cask dbeaver-community`
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/) `brew install --cask docker`
+- [Discord](brew install --cask discord)
 - [Slack](https://slack.com/downloads/osx) `brew install --cask slack`
 - [InTune](https://learn.microsoft.com/en-us/mem/intune/user-help/enroll-your-device-in-intune-macos-cp) `brew install --cask intune-company-portal`
 - [Trailer](https://github.com/ptsochantaris/trailer) `brew install --cask trailer`
@@ -94,7 +95,6 @@ Just call `export HOMEBREW_NO_AUTO_UPDATE=1` in the terminal session you are usi
 - [The Silver searcher (ag)](https://github.com/ggreer/the_silver_searcher) `brew install the_silver_searcher`
 - [Licecap](https://www.cockos.com/licecap/) `brew install --cask licecap`
 - [Stats](https://github.com/exelban/stats) `brew install --cask stats`
-- [Jitsi](https://jitsi.org/) `brew install --cask jitsi-meet`
 
 ## Contributing
 
