@@ -136,7 +136,7 @@ alias m2m='git checkout master && git pull && git branch -m master main && git p
 Add the following plugins
 
 ```bash
-plugins=(git gpg-agent rbenv zsh-nvm)
+plugins=(git gpg-agent pyenv rbenv zsh-nvm)
 ```
 
 Rather than go into them here, why they have been added and a little about what they do will is covered in the relevant pages of this guide.
