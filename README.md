@@ -91,6 +91,7 @@ Core stuff I install which also supports getting other things loaded and/or setu
 - [The Silver searcher (ag)](https://github.com/ggreer/the_silver_searcher) `brew install the_silver_searcher`
 - [Licecap](https://www.cockos.com/licecap/) `brew install --cask licecap`
 - [Stats](https://github.com/exelban/stats) `brew install --cask stats`
+- [TickTick](https://ticktick.com/) `brew install --cask ticktick`
 
 ## Contributing
 
