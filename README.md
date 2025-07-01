@@ -68,6 +68,7 @@ Changes I make to the Mac in settings to get it how I like it.
 ### Keyboard
 
 - Set `Turn backlight keyboard off after inactivity` to `After 5 minutes`
+- Click `Edit` for **Input sources** then untick `Add full stop with double-space`
 
 ### Trackpad
 
